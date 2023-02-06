@@ -1,0 +1,61 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+locale: 'de'
+
+media_folder: '/static/img'
+
+
+collections:
+  - name: "startseite"
+    label: "Startseite"
+    format: "frontmatter"
+    extension: 'md'
+    folder: "content/"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Landing Banner Text", name: "landingTitle", widget: "string" }
+      - { label: "Landing Banner Slogan", name: "landingSlogan", widget: "string", required: false }
+      - label: "Landing Banner Bild"
+        name: "landingImage"
+        widget: "image"
+        required: true
+        media_library:
+          config:
+              multiple: true
+      - { label: "Banner Titel", name: "bannerTitle", widget: "string" }
+      - { label: "Banner Text", name: "bannerText", widget: "markdown"}
+      - { label: "Infomaterial Titel", name: "infomaterialTitle", widget: "string" }
+      - { label: "Infomaterial Text", name: "infomaterialText", widget: "string" }
+      - label: "Infomaterial"
+        name: "infomaterial"
+        widget: "list"
+        add_to_top: true
+        collapsed: false
+        fields:
+          - { label: "Material Bild", name: "materialImage", widget: "image" }
+          - { label: "Material Titel", name: "materialTitle", widget: "string" }
+          - { label: "Material Text", name: "materialText", widget: "markdown" }
+          - { label: "Material Button Text", name: "materialBtnText", widget: "string" }
+          - { label: "Material Button Link", name: "materialBtnLink", widget: "string" }
+      - { label: "Soziale Medien Titel", name: "sozialeMedienTitle", widget: "string" }
+      - { label: "Soziale Medien Text", name: "sozialeMedienText", widget: "string" }
+      - { label: "Unterstützer Titel", name: "supporterTitle", widget: "string" }
+      - { label: "Unterstützer Text", name: "supporterText", widget: "string" }
+      - label: "Unterstützer Karten"
+        name: "supporterCards"
+        widget: "list"
+        add_to_top: true
+        collapsed: false
+        fields:
+          - { label: "Material Bild", name: "materialImage", widget: "image" }
+          - { label: "Material Titel", name: "materialTitle", widget: "string" }
+          - { label: "Material Text", name: "materialText", widget: "markdown" }
+          - { label: "Material Button Text", name: "materialBtnText", widget: "string" }
+          - { label: "Material Button Link", name: "materialBtnLink", widget: "string" }
