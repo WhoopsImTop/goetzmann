@@ -1,6 +1,6 @@
 ---
-landingTitle: DIE GANZE <br> STADT IM BLICK
-landingSlogan: BÜRGERNAH, INNOVATIV, ERFAHREN.
+landingTitle: Die ganze <br> Stadt im Blick
+landingSlogan: Bürgernah. Innovativ. Erfahren.
 landingImage: /static/img/header_gb.png
 bannerTitle: Liebe Bürgerinnen und Bürger
 bannerText: >-2
@@ -21,7 +21,9 @@ bannerText: >-2
   Ihr Roman Götzmann
 bannerImage: /static/img/cross.svg
 bannerSubtitle: |-
-  ### Oberbürgermeisterwahl <br> 12.03.2023
+  ### Oberbürgermeisterwahl
+
+  ### 12.03.2023
 infomaterialTitle: Infomaterial
 infomaterialText: Die vorliegende Broschüre zeigt ausschnittsweise, was in den
   vergangenen Jahren erreicht wurde - gemeinsam mit dem Gemeinderat, den
