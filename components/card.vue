@@ -55,8 +55,9 @@ export default {
   },
   methods: {
     contactActions() {
-        this.$store.state.formularQuestion = this.title + '<br>' + this.subtitle;
-        this.$store.state.formularSubject = this.title;
+        this.$store.commit('setFormularQuestion', this.title + '<br>' + this.subtitle);        
+        this.$store.commit('setFormularSubject', this.title);
+        this.$router.push({ path: '/#kontakt' });
     },
   },
 };

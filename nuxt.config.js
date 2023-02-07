@@ -64,4 +64,15 @@ export default {
   },
 
   // Route module configuration: https://go.nuxtjs.dev/config-router
+  router: {
+    scrollBehavior(to) {
+      if (to.hash) {
+        return window.scrollTo({
+          top: document.querySelector(to.hash).offsetTop,
+          behavior: "smooth",
+        });
+      }
+      return window.scrollTo({ top: 0, behavior: "smooth" });
+    },
+  },
 };

@@ -1,6 +1,7 @@
 export const state = () => ({
   mainContent: [],
-  formularQuestion: "Sie haben eine Frage? <br> Interesse an einem persönlichen Gespräch? <br> Ich freue mich über Ihre Nachricht!",
+  formularQuestion:
+    "Sie haben eine Frage? <br> Interesse an einem persönlichen Gespräch? <br> Ich freue mich über Ihre Nachricht!",
   formularSubject: "Anfrage über Kontaktformular",
 });
 
@@ -11,6 +12,12 @@ export const getters = {
 export const mutations = {
   setContent(state, payload) {
     state.mainContent = payload;
+  },
+  setFormularQuestion(state, payload) {
+    state.formularQuestion = payload;
+  },
+  setFormularSubject(state, payload) {
+    state.formularSubject = payload;
   },
 };
 

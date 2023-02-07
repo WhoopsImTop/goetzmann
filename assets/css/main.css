@@ -145,6 +145,35 @@ p {
 
 /* Landing Banner */
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+}
+
+.grid1 {
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.grid2 {
+  grid-area: 1 / 3 / 2 / 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.grid2 img {
+  margin-bottom: 30px;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .landing-banner {
   position: relative;
   width: 100%;
@@ -283,6 +312,10 @@ p {
   max-height: 200px;
   margin-bottom: 30px;
   background-color: #ffffff;
+}
+
+.card-image img {
+  width: 100%
 }
 
 .card-header {
@@ -527,5 +560,18 @@ button {
     bottom: 0px;
     top: unset;
     transform: unset;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid2 {
+    margin-top: 30px;
+  }
+
+  .grid2 img {
+    margin-bottom: 30px;
   }
 }

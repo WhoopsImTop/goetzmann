@@ -9,21 +9,32 @@
       <h1 v-html="$store.state.mainContent.landingTitle"></h1>
       <h3>{{ $store.state.mainContent.landingSlogan }}</h3>
     </LandingHeader>
-    <Banner>
+    <Banner id="oberbuergermeisterwahl-2023">
       <template #content>
-        <div class="row">
-          <div class="col">
+        <div class="grid">
+          <div class="grid1">
             <h3>{{ $store.state.mainContent.bannerTitle }}</h3>
             <p v-html="$md.render($store.state.mainContent.bannerText)"></p>
           </div>
-          <div class="col align-end">
-            <img width="200" :src="$store.state.mainContent.bannerImage ? $store.state.mainContent.bannerImage.split('/static/')[1] : ''" alt="wählen" />
-            <p v-html="$md.render($store.state.mainContent.bannerSubtitle ?? '')"></p>
+          <div class="grid2 centered">
+            <img
+              width="200"
+              :src="
+                $store.state.mainContent.bannerImage
+                  ? $store.state.mainContent.bannerImage.split('/static/')[1]
+                  : ''
+              "
+              alt="wählen"
+            />
+            <p
+              v-html="$md.render($store.state.mainContent.bannerSubtitle ?? '')"
+            ></p>
           </div>
         </div>
       </template>
     </Banner>
     <Section
+      id="infomaterial"
       :title="$store.state.mainContent.infomaterialTitle"
       :subtitle="$store.state.mainContent.infomaterialText"
     >
@@ -43,22 +54,24 @@
       </template>
     </Section>
     <Section
+      id="soziale-medien"
       :title="$store.state.mainContent.sozialeMedienTitle"
       :subtitle="$store.state.mainContent.sozialeMedienText"
     >
       <template #header>
         <div class="row">
-          <a href="https://www.instagram.com/romangoetzmann/" target="_blank"
-            ><img width="30" src="/img/in.svg" alt="instagram"
+          <a style="margin-right: 30px" href="https://www.instagram.com/romangoetzmann/" target="_blank"
+            ><img width="70" src="/img/in.svg" alt="instagram"
           /></a>
           <a href="https://www.facebook.com/rgoetzmann" target="_blank"
-            ><img width="15" src="/img/fb.svg" alt="facebook"
+            ><img width="35" src="/img/fb.svg" alt="facebook"
           /></a>
         </div>
       </template>
       <template #content> </template>
     </Section>
     <Section
+    id="unterstuetzer-werden"
       title="Unterstützer werden"
       subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy. Lorem ipsum"
     >
@@ -78,7 +91,7 @@
         </div>
       </template>
     </Section>
-    <contact-formular
+    <contact-formular id="kontakt"
       backgroundColor="linear-gradient(90deg, #3B5999, #4EB0E1)"
     >
       <template #content>
