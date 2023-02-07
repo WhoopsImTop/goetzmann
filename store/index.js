@@ -1,5 +1,7 @@
 export const state = () => ({
   mainContent: [],
+  formularQuestion: "Sie haben eine Frage? <br> Interesse an einem persönlichen Gespräch? <br> Ich freue mich über Ihre Nachricht!",
+  formularSubject: "Anfrage über Kontaktformular",
 });
 
 export const getters = {

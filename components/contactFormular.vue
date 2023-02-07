@@ -3,10 +3,7 @@
         <div class="content-container row">
             <div class="col">
                 <h2>Kontakt</h2>
-                <p>Sie haben eine Frage?<br>
-                    Interesse an einem persönlichen Gespräch?<br>
-                    Ich freue mich über Ihre Nachricht!
-                </p>
+                <p v-html="$store.state.formularQuestion"></p>
                 <form class="form">
                     <div class="formgroup">
                         <label for="name">Vor- und Nachname</label>

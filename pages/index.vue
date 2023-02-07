@@ -67,6 +67,7 @@
           <card
             v-for="(card, index) in $store.state.mainContent.supporterCards"
             :key="index"
+            :contactAction="true"
             :title="card.materialTitle"
             :subtitle="card.materialText"
             :image="card.materialImage.split('/static/')[1]"
