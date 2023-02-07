@@ -4,8 +4,8 @@ landingSlogan: BÜRGERNAH, INNOVATIV, ERFAHREN.
 landingImage: /static/img/header_gb.png
 bannerTitle: Obergürgermeisterwahl 12.03.2023
 bannerText: >-
-  ## Liebe Bürgerinnen und Bürger in Waldkirch, Kollnau, Buchholz, Siensbach und
-  Suggental
+  ### Liebe Bürgerinnen und Bürger in Waldkirch, Kollnau, Buchholz, Siensbach
+  und Suggental
 
 
   Vor acht Jahren haben Sie mir das Vertrauen geschenkt, als Oberbürgermeister unsere Stadt mit allen Ortsteilen mitgestalten zu dürfen. Vieles haben wir in diesen Jahren vorangebracht: den städtischen Wohnungsbau, die fortlaufende Sanierung unserer Einrichtungen, den Ausbau der Kinderbetreuung, die Digitalisierung der Schulen und einiges mehr. Prioritäten setzen und das Wichtige nicht aus den Augen verlieren: darauf kommt es an!
@@ -25,12 +25,15 @@ bannerText: >-
 
   Ihr Roman Götzmann
 infomaterialTitle: INFOMATERIAL
-infomaterialText: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-  diam nonumy. Lorem ipsum
+infomaterialText: Das vorliegende Infomaterial zeigt ausschnittsweise, was in
+  den vergangenen Jahren erreicht wurde - gemeinsam mit dem Gemeinderat, den
+  Ortschaftsräten und vielen Aktiven in Vereinen und Organisationen.
+  Gleichzeitig möchte ich auch einen Ausblick geben, was mir für die Zukunft
+  wichtig ist und wohin sich Waldkirch entwickeln soll.  Diese Entwicklung
+  möchte ich weiterhin mit aller Kraft, Ausdauer und meinen Ideen mitgestalten.
 infomaterial:
-  - materialTitle: LOREM IPSUM
-    materialText: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy. Lorem ipsum
+  - materialTitle: Wahlbroschüre
+    materialText: Laden Sie sich die aktuelle Wahlbroschüre als PDF
     materialBtnText: Mehr erfahren
     materialBtnLink: "#"
     materialImage: /static/img/cross.svg
