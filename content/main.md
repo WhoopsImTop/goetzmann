@@ -51,7 +51,7 @@ infomaterial:
 sozialeMedienTitle: SOZIALE MEDIEN
 sozialeMedienText: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
   diam nonumy. Lorem ipsum
-supporterTitle: Unterstützer:in werden
+supporterTitle: Unterstützer*in werden
 supporterText: Ob als Helfer, Spender oder Anzeigenschalter ....
 supporterCards:
   - materialTitle: Wahlhelfer:in
