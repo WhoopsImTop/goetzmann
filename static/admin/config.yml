@@ -32,7 +32,7 @@ collections:
       - { label: "Banner Titel", name: "bannerTitle", widget: "string" }
       - { label: "Banner Text", name: "bannerText", widget: "markdown"}
       - { label: "Banner Bild", name: "bannerImage", widget: "image" }
-      - { label: "Banner Bild Untertext", name: "bannerSubtitle", widget: ""}
+      - { label: "Banner Bild Untertext", name: "bannerSubtitle", widget: "markdown"}
       - { label: "Infomaterial Titel", name: "infomaterialTitle", widget: "string" }
       - { label: "Infomaterial Text", name: "infomaterialText", widget: "string" }
       - label: "Infomaterial"
