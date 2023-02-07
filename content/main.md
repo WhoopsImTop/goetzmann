@@ -15,28 +15,23 @@ bannerText: >-2
   Meine Frau, meine Kinder und ich haben hier unsere Heimat gefunden. Diese Heimat will ich weiterhin gut in die Zukunft bringen und stelle mich gerne den Herausforderungen der kommenden acht Jahren. 
 
 
-  Die vorliegende Broschüre zeigt ausschnittsweise, was in den vergangenen Jahren erreicht wurde - gemeinsam mit dem Gemeinderat, den Ortschaftsräten und vielen Aktiven in Vereinen und Organisationen. Gleichzeitig möchte ich auch einen Ausblick geben, was mir für die Zukunft wichtig ist und wohin sich Waldkirch entwickeln soll. 
-
-
   Diese Entwicklung möchte ich weiterhin mit aller Kraft, Ausdauer und meinen Ideen mitgestalten. Dafür bitte ich Sie um Ihr Vertrauen und Ihre Stimme am Sonntag, 12. März 2023.
 
 
   Ihr Roman Götzmann
-
-
-  Oberbürgermeisterwahl 12.03.2023 nach rechts unter das Kreuzchen --->
 bannerImage: /static/img/cross.svg
 bannerSubtitle: |-
   ### Oberbürgermeisterwahl
 
   ### 12.03.2023
 infomaterialTitle: Infomaterial
-infomaterialText: Das vorliegende Infomaterial zeigt ausschnittsweise, was in
-  den vergangenen Jahren erreicht wurde - gemeinsam mit dem Gemeinderat, den
+infomaterialText: Die vorliegende Broschüre zeigt ausschnittsweise, was in den
+  vergangenen Jahren erreicht wurde - gemeinsam mit dem Gemeinderat, den
   Ortschaftsräten und vielen Aktiven in Vereinen und Organisationen.
   Gleichzeitig möchte ich auch einen Ausblick geben, was mir für die Zukunft
-  wichtig ist und wohin sich Waldkirch entwickeln soll.  Diese Entwicklung
-  möchte ich weiterhin mit aller Kraft, Ausdauer und meinen Ideen mitgestalten.
+  wichtig ist und wohin sich Waldkirch entwickeln soll. Zusätzlich finden Sie
+  hier Materialien zur Unterstützung und Pressearbeit und einen ausführlichen
+  Lebenslauf.
 infomaterial:
   - materialTitle: Wahlbroschüre
     materialText: Laden Sie sich die aktuelle Wahlbroschüre als PDF.
