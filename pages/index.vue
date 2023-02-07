@@ -14,9 +14,7 @@
         <div class="row">
           <div class="col">
             <h3>{{ $store.state.mainContent.bannerTitle }}</h3>
-            <p>
-              {{ $store.state.mainContent.bannerText }}
-            </p>
+            <p v-html="$md.render($store.state.mainContent.bannerText)"></p>
           </div>
           <div class="col align-end">
             <img width="200" src="/img/cross.svg" alt="wählen" />
@@ -38,8 +36,7 @@
             :image="card.materialImage.split('/static/')[1]"
             :link="card.materialBtnLink"
             :buttonText="card.materialBtnText"
-            btnColor="linear-gradient(90deg,
-          #3B5999, #4EB0E1)"
+            btnColor="linear-gradient(90deg, #3B5999, #4EB0E1)"
           />
         </div>
       </template>
@@ -74,8 +71,7 @@
             :image="card.materialImage.split('/static/')[1]"
             :link="card.materialBtnLink"
             :buttonText="card.materialBtnText"
-            btnColor="linear-gradient(90deg,
-          #3B5999, #4EB0E1)"
+            btnColor="linear-gradient(90deg, #3B5999, #4EB0E1)"
           />
         </div>
       </template>
