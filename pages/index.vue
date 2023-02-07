@@ -39,7 +39,7 @@
       :subtitle="$store.state.mainContent.infomaterialText"
     >
       <template #content>
-        <div class="card-grid justify-between">
+        <div class="row justify-between">
           <card
             v-for="(card, index) in $store.state.mainContent.infomaterial"
             :key="index"
@@ -59,24 +59,38 @@
       :subtitle="$store.state.mainContent.sozialeMedienText"
     >
       <template #header>
-        <div class="row">
-          <a style="margin-right: 30px" href="https://www.instagram.com/romangoetzmann/" target="_blank"
-            ><img width="70" src="/img/in.svg" alt="instagram"
+        <div class="row icons">
+          <a
+            href="https://www.instagram.com/romangoetzmann/"
+            target="_blank"
+            ><img class="instagram-icon" src="/img/in.svg" alt="instagram"
           /></a>
           <a href="https://www.facebook.com/rgoetzmann" target="_blank"
-            ><img width="35" src="/img/fb.svg" alt="facebook"
+            ><img class="facebook-icon" src="/img/fb.svg" alt="facebook"
           /></a>
         </div>
       </template>
-      <template #content> </template>
+      <template #content>
+        <div class="row justify-between">
+          <a
+            href="https://www.instagram.com/romangoetzmann/"
+            target="_blank"
+            v-for="(post, index) in $store.state.instagram"
+            class="instagram-image"
+            :key="index"
+          >
+            <img :src="post.image.split('/static/')[1]" :alt="index" />
+          </a>
+        </div>
+      </template>
     </Section>
     <Section
-    id="unterstuetzer-werden"
+      id="unterstuetzer-werden"
       title="Unterstützer werden"
       subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy. Lorem ipsum"
     >
       <template #content>
-        <div class="card-grid justify-between">
+        <div class="row justify-between">
           <card
             v-for="(card, index) in $store.state.mainContent.supporterCards"
             :key="index"
@@ -91,7 +105,8 @@
         </div>
       </template>
     </Section>
-    <contact-formular id="kontakt"
+    <contact-formular
+      id="kontakt"
       backgroundColor="linear-gradient(90deg, #3B5999, #4EB0E1)"
     >
       <template #content>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="218" viewBox="0 0 500 218">
+  <g id="Gruppe_5" data-name="Gruppe 5" transform="translate(-927 -3608)">
+    <rect id="Rechteck_39" data-name="Rechteck 39" width="500" height="218" rx="2" transform="translate(927 3608)" fill="#fff"/>
+    <g id="Gruppe_4" data-name="Gruppe 4" transform="translate(-129.37 3633.885)">
+      <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(1076.786 31.75)" fill="none" stroke="#3b5999" stroke-width="9">
+        <circle cx="51.366" cy="51.366" r="51.366" stroke="none"/>
+        <circle cx="51.366" cy="51.366" r="46.866" fill="none"/>
+      </g>
+      <path id="Pfad_1" data-name="Pfad 1" d="M1077.5,129.256s12.628-46.9,98.013-95.006" transform="translate(8.432 3.768)" fill="none" stroke="#3b5999" stroke-width="9"/>
+      <path id="Pfad_2" data-name="Pfad 2" d="M1062.75,28.625s58.266,23.8,89.535,71.909" transform="translate(8.75 13.602)" fill="none" stroke="#3b5999" stroke-width="9"/>
+    </g>
+  </g>
+</svg>

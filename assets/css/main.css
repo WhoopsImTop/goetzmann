@@ -301,7 +301,7 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 30px;
+  grid-column-gap: 50px;
   grid-row-gap: 0px;
 }
 
@@ -391,7 +391,6 @@ p {
 .row {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
 }
 
 .col {
@@ -452,6 +451,7 @@ p {
 
 .card {
   flex: 1;
+  min-width: 350px;
   background-color: var(--primary-color-muted);
   padding: 20px 20px 30px 20px;
   margin-bottom: 30px;
@@ -459,9 +459,7 @@ p {
 }
 
 .card-image {
-  width: 100%;
-  margin-bottom: 30px;
-  background-color: #ffffff;
+  margin-bottom: 15px;
   overflow: hidden;
 }
 
@@ -469,16 +467,17 @@ p {
   width: 100%;
 }
 
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-template-rows: 1fr;
-  grid-column-gap: 16px;
-  grid-row-gap: 0px;
+.card-header {
+  margin-bottom: 40px;
 }
 
-.card-header {
-  margin-bottom: var(--m-25);
+.instagram-icon {
+  width: 70px;
+  margin-right: 30px;
+}
+
+.facebook-icon {
+  width: 35px;
 }
 
 .card-button {
@@ -488,6 +487,28 @@ p {
   text-decoration: none;
 }
 
+.card-button:hover {
+  cursor: pointer;
+}
+
+.instagram-image {
+  width: 300px;
+  margin: 10px;
+}
+
+.instagram-image:hover {
+  filter: grayscale(0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.instagram-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.row.justify-between .card:nth-child(2) {
+  margin: 0 15px 30px 15px;
+}
 /* Kontakt Formular */
 .form {
   display: flex;
@@ -590,11 +611,10 @@ button {
 
   .card {
     min-width: 350px;
-    max-width: 400px;
   }
 
   .row.justify-between .card:nth-child(2) {
-    margin: 0 50px 30px;
+    margin: 0 15px 30px 15px;
   }
 
   .landing-banner {
@@ -732,5 +752,23 @@ button {
 
   .grid2 img {
     margin-bottom: 30px;
+  }
+
+  .instagram-icon {
+    width: 30px;
+    margin-right: 0px;
+  }
+
+  .instagram-image {
+    width: calc(100% - 20px);
+    overflow: hidden;
+  }
+
+  .facebook-icon {
+    width: 15px;
+  }
+
+  .row.icons {
+    flex-direction: row;
   }
 }

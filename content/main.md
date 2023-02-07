@@ -59,15 +59,15 @@ supporterCards:
     materialText: Wir brauchen Unterstützung vor Ort ....
     materialBtnText: Wahlhelfer*in werden
     materialBtnLink: "#"
-    materialImage: /static/img/cross.svg
+    materialImage: /static/img/squared.svg
   - materialTitle: Spender*in
     materialText: Jede Spende ist willkommen ....
     materialBtnText: Spender*in werden
     materialBtnLink: "#"
-    materialImage: /static/img/cross.svg
+    materialImage: /static/img/squared.svg
   - materialTitle: Anzeigen schalten
     materialText: Wir sind dankbar über jede Unterstützeranzeige ....
     materialBtnText: Anzeige schalten
     materialBtnLink: "#"
-    materialImage: /static/img/cross.svg
+    materialImage: /static/img/squared.svg
 ---
