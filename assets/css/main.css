@@ -465,6 +465,7 @@ p {
   max-height: 200px;
   margin-bottom: 30px;
   background-color: #ffffff;
+  overflow: hidden;
 }
 
 .card-image img {
