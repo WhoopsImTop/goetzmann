@@ -21,9 +21,9 @@ bannerText: >-2
   Ihr Roman Götzmann
 bannerImage: /static/img/cross.svg
 bannerSubtitle: |-
-  ### Oberbürgermeisterwahl
+  #### Oberbürgermeisterwahl
 
-  ### 12.03.2023
+  ## 12.03.2023
 infomaterialTitle: Infomaterial
 infomaterialText: Die vorliegende Broschüre zeigt ausschnittsweise, was in den
   vergangenen Jahren erreicht wurde - gemeinsam mit dem Gemeinderat, den
