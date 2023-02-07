@@ -710,6 +710,7 @@ button {
 
   .row {
     flex-direction: column;
+    flex-wrap: unset;
   }
 
   img {
@@ -730,12 +731,12 @@ button {
   }
 
   .content-container {
-    padding: 50px 10px;
+    padding: 50px 20px;
   }
 
   .banner {
     max-width: 100%;
-    padding: 20px 10px;
+    padding: 20px 20px;
     bottom: 0px;
     top: unset;
     transform: unset;
@@ -770,5 +771,9 @@ button {
 
   .row.icons {
     flex-direction: row;
+  }
+  
+  .card {
+    max-width: 100%;
   }
 }
