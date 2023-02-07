@@ -39,7 +39,7 @@
       :subtitle="$store.state.mainContent.infomaterialText"
     >
       <template #content>
-        <div class="row justify-between">
+        <div class="card-grid justify-between">
           <card
             v-for="(card, index) in $store.state.mainContent.infomaterial"
             :key="index"
@@ -76,7 +76,7 @@
       subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy. Lorem ipsum"
     >
       <template #content>
-        <div class="row justify-between">
+        <div class="card-grid justify-between">
           <card
             v-for="(card, index) in $store.state.mainContent.supporterCards"
             :key="index"

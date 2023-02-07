@@ -42,12 +42,12 @@ infomaterial:
     materialText: Laden Sie sich Bilder und Grafiken zum aktuellen Wahlkampf als ZIP.
     materialBtnText: Pressekit Download ZIP
     materialBtnLink: "#"
-    materialImage: /static/img/cross.svg
+    materialImage: /static/img/goetzmann-fotoshooting-069-neutraler-hintegrund-handy-titelbild.jpg
   - materialTitle: Lebenslauf
     materialText: Laden Sie sich meinen Lebenslauf als PDF.
     materialBtnText: Lebenslauf Download PDF
     materialBtnLink: "#"
-    materialImage: /static/img/cross.svg
+    materialImage: /static/img/goetzmann-fotoshooting-069-neutraler-hintegrund-handy-titelbild.jpg
 sozialeMedienTitle: SOZIALE MEDIEN
 sozialeMedienText: Folgen Sie mir im Wahlkampf auf den sozialen Medien. Schauen
   Sie hinter die Kulissen und nutzen die direkte Kommunikation.
@@ -59,15 +59,15 @@ supporterCards:
     materialText: Wir brauchen Unterstützung vor Ort ....
     materialBtnText: Wahlhelfer:in werden
     materialBtnLink: "#"
-    materialImage: /static/img/cross.svg
+    materialImage: /static/img/goetzmann-fotoshooting-069-neutraler-hintegrund-handy-titelbild.jpg
   - materialTitle: Spender:in
     materialText: Jede Spende ist willkommen ....
     materialBtnText: Spender:in werden
     materialBtnLink: "#"
-    materialImage: /static/img/cross.svg
+    materialImage: /static/img/goetzmann-fotoshooting-069-neutraler-hintegrund-handy-titelbild.jpg
   - materialTitle: Anzeigen schalten
     materialText: Wir sind dankbar über jede Unterstützeranzeige ....
     materialBtnText: Anzeige schalten
     materialBtnLink: "#"
-    materialImage: /static/img/cross.svg
+    materialImage: /static/img/goetzmann-fotoshooting-069-neutraler-hintegrund-handy-titelbild.jpg
 ---

@@ -12,7 +12,7 @@
                 <div class="burger-line"></div>
             </div>
             <div class="navigation-content-links">
-                <nuxt-link v-for="link in links" class="navigation-link" :class="link.highlight ? 'highlight': ''" :key="link.name" :to="link.link">
+                <nuxt-link v-for="link in links" class="navigation-link" @click="active = false" :class="link.highlight ? 'highlight': ''" :key="link.name" :to="link.link">
                     <img v-show="link.img" :src="link.img" :alt="link.name" /> {{ link.name }}
                 </nuxt-link>
             </div>
