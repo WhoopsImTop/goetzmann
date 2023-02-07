@@ -25,6 +25,8 @@ bannerText: >-2
 
 
   Oberbürgermeisterwahl 12.03.2023 nach rechts unter das Kreuzchen --->
+bannerImage: /static/img/cross.svg
+bannerSubtitle: "### Oberbürgermeisterwahl 12.03.2023"
 infomaterialTitle: Infomaterial
 infomaterialText: Das vorliegende Infomaterial zeigt ausschnittsweise, was in
   den vergangenen Jahren erreicht wurde - gemeinsam mit dem Gemeinderat, den
@@ -35,19 +37,19 @@ infomaterialText: Das vorliegende Infomaterial zeigt ausschnittsweise, was in
 infomaterial:
   - materialTitle: Wahlbroschüre
     materialText: Laden Sie sich die aktuelle Wahlbroschüre als PDF
-    materialBtnText: Mehr erfahren
+    materialBtnText: Broschüre Download PDF
     materialBtnLink: "#"
     materialImage: /static/img/cross.svg
-  - materialTitle: LOREM IPSUM
+  - materialTitle: Pressekit
     materialText: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
       nonumy. Lorem ipsum
-    materialBtnText: Mehr erfahren
+    materialBtnText: Pressekit Download ZIP
     materialBtnLink: "#"
     materialImage: /static/img/cross.svg
-  - materialTitle: LOREM IPSUM
+  - materialTitle: Lebenslauf
     materialText: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
       nonumy. Lorem ipsum
-    materialBtnText: Mehr erfahren
+    materialBtnText: Lebenslauf Download PDF
     materialBtnLink: "#"
     materialImage: /static/img/cross.svg
 sozialeMedienTitle: SOZIALE MEDIEN
