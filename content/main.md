@@ -38,16 +38,16 @@ infomaterial:
     materialBtnText: Download
     materialBtnLink: "#"
     materialImage: /static/img/goetzmann-fotoshooting-069-tal-hintegrund-grafik-1zu1.jpg
+  - materialTitle: Über mich
+    materialText: Lebenslauf von Roman Götzmann.
+    materialBtnText: Download
+    materialBtnLink: "#"
+    materialImage: /static/img/roman-goetzmann-waldkirch-lebenslauf.jpg
   - materialTitle: Pressematerial
     materialText: Bilder und Grafiken zum aktuellen Wahlkampf.
     materialBtnText: Download
     materialBtnLink: "#"
     materialImage: /static/img/roman-goetzmann-presse-waldkirch.jpg
-  - materialTitle: Lebenslauf
-    materialText: Laden Sie sich meinen Lebenslauf als PDF.
-    materialBtnText: Download
-    materialBtnLink: "#"
-    materialImage: /static/img/cross.svg
 sozialeMedienTitle: SOZIALE MEDIEN
 sozialeMedienText: Folgen Sie mir im Wahlkampf auf den sozialen Medien. Schauen
   Sie hinter die Kulissen und nutzen die direkte Kommunikation.
