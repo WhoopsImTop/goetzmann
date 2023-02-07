@@ -33,41 +33,41 @@ infomaterialText: Die vorliegende Broschüre zeigt ausschnittsweise, was in den
   hier Materialien zur Unterstützung und Pressearbeit und einen ausführlichen
   Lebenslauf.
 infomaterial:
-  - materialTitle: Wahlbroschüre
-    materialText: Laden Sie sich die aktuelle Wahlbroschüre als PDF.
-    materialBtnText: Broschüre Download PDF
+  - materialTitle: Ziele. Erfolge. Aktuelles.
+    materialText: Alle  Informationen in einer Wahlbroschüre.
+    materialBtnText: Download
     materialBtnLink: "#"
     materialImage: /static/img/goetzmann-fotoshooting-069-tal-hintegrund-grafik-1zu1.jpg
-  - materialTitle: Pressekit
-    materialText: Laden Sie sich Bilder und Grafiken zum aktuellen Wahlkampf als ZIP.
-    materialBtnText: Pressekit Download ZIP
+  - materialTitle: Pressematerial
+    materialText: Bilder und Grafiken zum aktuellen Wahlkampf.
+    materialBtnText: Download
     materialBtnLink: "#"
     materialImage: /static/img/roman-goetzmann-presse-waldkirch.jpg
   - materialTitle: Lebenslauf
     materialText: Laden Sie sich meinen Lebenslauf als PDF.
-    materialBtnText: Lebenslauf Download PDF
+    materialBtnText: Download
     materialBtnLink: "#"
-    materialImage: /static/img/goetzmann-fotoshooting-069-neutraler-hintegrund-handy-titelbild.jpg
+    materialImage: /static/img/cross.svg
 sozialeMedienTitle: SOZIALE MEDIEN
 sozialeMedienText: Folgen Sie mir im Wahlkampf auf den sozialen Medien. Schauen
   Sie hinter die Kulissen und nutzen die direkte Kommunikation.
-supporterTitle: Unterstützerin werden
+supporterTitle: Wählerinitiative
 supporterText: Ich bedanke mich in vor hinein schon bei allen Helfer*innen,
   Spender*innen und für jegliche Unterstützung.
 supporterCards:
-  - materialTitle: Wahlhelfer:in
+  - materialTitle: Wahlhelfer*in
     materialText: Wir brauchen Unterstützung vor Ort ....
-    materialBtnText: Wahlhelfer:in werden
+    materialBtnText: Wahlhelfer*in werden
     materialBtnLink: "#"
-    materialImage: /static/img/goetzmann-fotoshooting-069-neutraler-hintegrund-handy-titelbild.jpg
-  - materialTitle: Spender:in
+    materialImage: /static/img/cross.svg
+  - materialTitle: Spender*in
     materialText: Jede Spende ist willkommen ....
-    materialBtnText: Spender:in werden
+    materialBtnText: Spender*in werden
     materialBtnLink: "#"
-    materialImage: /static/img/goetzmann-fotoshooting-069-neutraler-hintegrund-handy-titelbild.jpg
+    materialImage: /static/img/cross.svg
   - materialTitle: Anzeigen schalten
     materialText: Wir sind dankbar über jede Unterstützeranzeige ....
     materialBtnText: Anzeige schalten
     materialBtnLink: "#"
-    materialImage: /static/img/goetzmann-fotoshooting-069-neutraler-hintegrund-handy-titelbild.jpg
+    materialImage: /static/img/cross.svg
 ---
