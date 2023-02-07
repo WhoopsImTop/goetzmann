@@ -17,7 +17,7 @@
             <p v-html="$md.render($store.state.mainContent.bannerText)"></p>
           </div>
           <div class="col align-end">
-            <img width="200" :src="$store.state.mainContent.bannerImage" alt="wählen" />
+            <img width="200" :src="$store.state.mainContent.bannerImage.split('/static/')[1]" alt="wählen" />
             <p v-html="$md.render($store.state.mainContent.bannerSubtitle ?? '')"></p>
           </div>
         </div>
