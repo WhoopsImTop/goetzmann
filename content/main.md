@@ -51,7 +51,7 @@ infomaterial:
 sozialeMedienTitle: SOZIALE MEDIEN
 sozialeMedienText: Folgen Sie mir im Wahlkampf auf den sozialen Medien. Schauen
   Sie hinter die Kulissen und nutzen die direkte Kommunikation.
-supporterTitle: Unterstützer*in werden
+supporterTitle: Unterstützerin werden
 supporterText: Ich bedanke mich in vor hinein schon bei allen Helfer*innen,
   Spender*innen und für jegliche Unterstützung.
 supporterCards:
