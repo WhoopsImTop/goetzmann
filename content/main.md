@@ -35,7 +35,7 @@ infomaterial:
     materialText: Laden Sie sich die aktuelle Wahlbroschüre als PDF.
     materialBtnText: Broschüre Download PDF
     materialBtnLink: "#"
-    materialImage: /static/img/cross.svg
+    materialImage: /static/img/goetzmann-fotoshooting-069-neutraler-hintegrund-handy-titelbild.jpg
   - materialTitle: Pressekit
     materialText: Laden Sie sich Bilder und Grafiken zum aktuellen Wahlkampf als ZIP.
     materialBtnText: Pressekit Download ZIP
@@ -47,10 +47,11 @@ infomaterial:
     materialBtnLink: "#"
     materialImage: /static/img/cross.svg
 sozialeMedienTitle: SOZIALE MEDIEN
-sozialeMedienText: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-  diam nonumy. Lorem ipsum
-supporterTitle: Unterstützer*in werden
-supporterText: Ob als Helfer, Spender oder Anzeigenschalter ....
+sozialeMedienText: Folgen Sie mir im Wahlkampf auf den sozialen Medien. Schauen
+  Sie hinter die Kulissen und nutzen die direkte Kommunikation.
+supporterTitle: Unterstützerin werden
+supporterText: Ich bedanke mich in vor hinein schon bei allen Helfer*innen,
+  Spender*innen und für jegliche Unterstützung.
 supporterCards:
   - materialTitle: Wahlhelfer:in
     materialText: Wir brauchen Unterstützung vor Ort ....
