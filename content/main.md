@@ -37,12 +37,12 @@ infomaterial:
     materialText: Laden Sie sich die aktuelle Wahlbroschüre als PDF.
     materialBtnText: Broschüre Download PDF
     materialBtnLink: "#"
-    materialImage: /static/img/goetzmann-fotoshooting-069-neutraler-hintegrund-handy-titelbild.jpg
+    materialImage: /static/img/goetzmann-fotoshooting-069-tal-hintegrund-grafik-1zu1.jpg
   - materialTitle: Pressekit
     materialText: Laden Sie sich Bilder und Grafiken zum aktuellen Wahlkampf als ZIP.
     materialBtnText: Pressekit Download ZIP
     materialBtnLink: "#"
-    materialImage: /static/img/cross.svg
+    materialImage: /static/img/roman-goetzmann-presse-waldkirch.jpg
   - materialTitle: Lebenslauf
     materialText: Laden Sie sich meinen Lebenslauf als PDF.
     materialBtnText: Lebenslauf Download PDF
