@@ -51,17 +51,17 @@ infomaterial:
 sozialeMedienTitle: SOZIALE MEDIEN
 sozialeMedienText: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
   diam nonumy. Lorem ipsum
-supporterTitle: Unterstützer werden
+supporterTitle: Unterstützer:in werden
 supporterText: Ob als Helfer, Spender oder Anzeigenschalter ....
 supporterCards:
-  - materialTitle: WahlhelferIn
+  - materialTitle: Wahlhelfer:in
     materialText: Wir brauchen Unterstützung vor Ort ....
-    materialBtnText: WahlhelferIn werden
+    materialBtnText: Wahlhelfer:in werden
     materialBtnLink: "#"
     materialImage: /static/img/cross.svg
-  - materialTitle: SpenderIn
+  - materialTitle: Spender:in
     materialText: Jede Spende ist willkommen ....
-    materialBtnText: SpenderIn werden
+    materialBtnText: Spender:in werden
     materialBtnLink: "#"
     materialImage: /static/img/cross.svg
   - materialTitle: Anzeigen schalten
