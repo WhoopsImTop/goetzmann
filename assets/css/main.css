@@ -45,6 +45,7 @@ h3 {
   line-height: 40px;
   font-weight: 700;
   text-transform: uppercase;
+  margin-bottom: var(--m-25);
 }
 
 h4 {
@@ -56,6 +57,7 @@ h4 {
 p {
   font-size: 16px;
   line-height: 25px;
+  margin-bottom: 16px;
 }
 
 .navigation-container {
@@ -237,7 +239,6 @@ p {
 
 .bannerComponent h3 {
   color: var(--primary-color);
-  margin-bottom: var(--m-25);
 }
 
 /* Section */

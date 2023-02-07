@@ -5,7 +5,7 @@
         </div>
         <div class="card-header">
             <h4>{{ title }}</h4>
-            <p>{{ subtitle }}</p>
+            <p v-html="$md.render(subtitle)"></p>
         </div>
         <a class="card-button" :style="'background: ' + btnColor" :href="link">{{ buttonText }}</a>
     </div>

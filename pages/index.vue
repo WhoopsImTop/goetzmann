@@ -17,7 +17,8 @@
             <p v-html="$md.render($store.state.mainContent.bannerText)"></p>
           </div>
           <div class="col align-end">
-            <img width="200" src="/img/cross.svg" alt="wählen" />
+            <img width="200" :src="$store.state.mainContent.bannerImage" alt="wählen" />
+            <p v-html="$md.render($store.state.mainContent.bannerSubtitle ?? '')"></p>
           </div>
         </div>
       </template>
