@@ -24,7 +24,7 @@ bannerText: >-
 
 
   Ihr Roman Götzmann
-infomaterialTitle: INFOMATERIAL
+infomaterialTitle: Infomaterial
 infomaterialText: Das vorliegende Infomaterial zeigt ausschnittsweise, was in
   den vergangenen Jahren erreicht wurde - gemeinsam mit dem Gemeinderat, den
   Ortschaftsräten und vielen Aktiven in Vereinen und Organisationen.
