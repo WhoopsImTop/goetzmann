@@ -49,10 +49,11 @@ infomaterial:
     materialBtnLink: "#"
     materialImage: /static/img/cross.svg
 sozialeMedienTitle: SOZIALE MEDIEN
-sozialeMedienText: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-  diam nonumy. Lorem ipsum
+sozialeMedienText: Folgen Sie mir im Wahlkampf auf den sozialen Medien. Schauen
+  Sie hinter die Kulissen und nutzen die direkte Kommunikation.
 supporterTitle: Unterstützer*in werden
-supporterText: Ob als Helfer, Spender oder Anzeigenschalter ....
+supporterText: Ich bedanke mich in vor hinein schon bei allen Helfer*innen,
+  Spender*innen und für jegliche Unterstützung.
 supporterCards:
   - materialTitle: Wahlhelfer:in
     materialText: Wir brauchen Unterstützung vor Ort ....
