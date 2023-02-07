@@ -1,6 +1,6 @@
 <template>
   <div>
-    <navigation :links="links" logoImage="img/rg_logo.svg" :verticalAlign=verticalAlign />
+    <navigation :links="links" logoImage="img/rg_logo.png" :verticalAlign=verticalAlign />
     <div :class="verticalAlign ? 'vertical-content' : ''">
       <Nuxt></Nuxt>
     </div>
