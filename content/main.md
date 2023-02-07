@@ -54,14 +54,14 @@ sozialeMedienText: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
 supporterTitle: Unterstützer werden
 supporterText: Ob als Helfer, Spender oder Anzeigenschalter ....
 supporterCards:
-  - materialTitle: Wahlhelfer
+  - materialTitle: WahlhelferIn
     materialText: Wir brauchen Unterstützung vor Ort ....
-    materialBtnText: Wahlhelfer werden
+    materialBtnText: WahlhelferIn werden
     materialBtnLink: "#"
     materialImage: /static/img/cross.svg
-  - materialTitle: Spender werden
+  - materialTitle: SpenderIn
     materialText: Jede Spende ist willkommen ....
-    materialBtnText: Spender werden
+    materialBtnText: SpenderIn werden
     materialBtnLink: "#"
     materialImage: /static/img/cross.svg
   - materialTitle: Anzeigen schalten
