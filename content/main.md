@@ -26,7 +26,10 @@ bannerText: >-2
 
   Oberbürgermeisterwahl 12.03.2023 nach rechts unter das Kreuzchen --->
 bannerImage: /static/img/cross.svg
-bannerSubtitle: "### Oberbürgermeisterwahl 12.03.2023"
+bannerSubtitle: |-
+  ### Oberbürgermeisterwahl
+
+  ### 12.03.2023
 infomaterialTitle: Infomaterial
 infomaterialText: Das vorliegende Infomaterial zeigt ausschnittsweise, was in
   den vergangenen Jahren erreicht wurde - gemeinsam mit dem Gemeinderat, den
@@ -36,45 +39,39 @@ infomaterialText: Das vorliegende Infomaterial zeigt ausschnittsweise, was in
   möchte ich weiterhin mit aller Kraft, Ausdauer und meinen Ideen mitgestalten.
 infomaterial:
   - materialTitle: Wahlbroschüre
-    materialText: Laden Sie sich die aktuelle Wahlbroschüre als PDF
+    materialText: Laden Sie sich die aktuelle Wahlbroschüre als PDF.
     materialBtnText: Broschüre Download PDF
     materialBtnLink: "#"
     materialImage: /static/img/cross.svg
   - materialTitle: Pressekit
-    materialText: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy. Lorem ipsum
+    materialText: Laden Sie sich Bilder und Grafiken zum aktuellen Wahlkampf als ZIP.
     materialBtnText: Pressekit Download ZIP
     materialBtnLink: "#"
     materialImage: /static/img/cross.svg
   - materialTitle: Lebenslauf
-    materialText: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy. Lorem ipsum
+    materialText: Laden Sie sich meinen Lebenslauf als PDF.
     materialBtnText: Lebenslauf Download PDF
     materialBtnLink: "#"
     materialImage: /static/img/cross.svg
 sozialeMedienTitle: SOZIALE MEDIEN
 sozialeMedienText: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
   diam nonumy. Lorem ipsum
-supporterTitle: UNTERSTÜTZER WERDEN
-supporterText: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-  nonumy. Lorem ipsum
+supporterTitle: Unterstützer werden
+supporterText: Ob als Helfer, Spender oder Anzeigenschalter ....
 supporterCards:
-  - materialTitle: LOREM IPSUM
-    materialText: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy. Lorem ipsum
-    materialBtnText: Mehr erfahren
+  - materialTitle: Wahlhelfer
+    materialText: Wir brauchen Unterstützung vor Ort ....
+    materialBtnText: Wahlhelfer werden
     materialBtnLink: "#"
     materialImage: /static/img/cross.svg
-  - materialTitle: LOREM IPSUM
-    materialText: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy. Lorem ipsum
-    materialBtnText: Mehr erfahren
+  - materialTitle: Spender werden
+    materialText: Jede Spende ist willkommen ....
+    materialBtnText: Spender werden
     materialBtnLink: "#"
     materialImage: /static/img/cross.svg
-  - materialTitle: LOREM IPSUM
-    materialText: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy. Lorem ipsum
-    materialBtnText: Mehr erfahren
+  - materialTitle: Anzeigen schalten
+    materialText: Wir sind dankbar über jede Unterstützeranzeige ....
+    materialBtnText: Anzeige schalten
     materialBtnLink: "#"
     materialImage: /static/img/cross.svg
 ---
