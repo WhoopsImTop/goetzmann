@@ -4,7 +4,7 @@ landingSlogan: BÜRGERNAH, INNOVATIV, ERFAHREN.
 landingImage: /static/img/header_gb.png
 bannerTitle: Obergürgermeisterwahl 12.03.2023
 bannerText: >-
-  ### Liebe Bürgerinnen und Bürger in Waldkirch, Kollnau, Buchholz, Siensbach
+  #### Liebe Bürgerinnen und Bürger in Waldkirch, Kollnau, Buchholz, Siensbach
   und Suggental
 
 
