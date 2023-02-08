@@ -333,6 +333,14 @@ p {
   background-size: cover;
 }
 
+.landing-banner .person {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
 .banner {
   padding: 40px 40px 40px 80px;
   width: max-content;
@@ -341,9 +349,19 @@ p {
 
 .banner-left {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 0;
-  transform: translate(0, -50%);
+  transform: translate(0, -40%);
+}
+
+.date-banner {
+  position: absolute;
+  top: 60%;
+  left: 0;
+  width: max-content;
+  padding: 10px 40px 10px 80px;
+  background-color: var(--text-light-color);
+  color: var(--primary-color);
 }
 
 .banner-left-center {
@@ -718,6 +736,16 @@ button {
     background-position: right;
   }
 
+  .landing-banner .person {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: auto;
+    max-height: 100%;
+    width: auto;
+    background-repeat: no-repeat;
+  }
+
   .row {
     flex-direction: column;
     flex-wrap: unset;
@@ -747,9 +775,19 @@ button {
   .banner {
     max-width: 100%;
     padding: 20px 20px;
-    bottom: 0px;
-    top: unset;
-    transform: unset;
+  }
+
+  .date-banner {
+    max-width: 100%;
+    padding: 20px 20px;
+    top: 70%;
+  }
+
+  .banner-left {
+    position: absolute;
+    top: 55%;
+    left: 0;
+    transform: translate(0, -55%);
   }
 
   .grid {
@@ -782,7 +820,7 @@ button {
   .row.icons {
     flex-direction: row;
   }
-  
+
   .card {
     max-width: 100%;
   }

@@ -7,7 +7,6 @@
       bannerColor="linear-gradient(90deg, #3B5999, #4EB0E1)"
     >
       <h1 v-html="$store.state.mainContent.landingTitle"></h1>
-      <h3>{{ $store.state.mainContent.landingSlogan }}</h3>
     </LandingHeader>
     <Banner id="oberbuergermeisterwahl-2023">
       <template #content>
