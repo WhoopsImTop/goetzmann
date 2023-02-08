@@ -1,7 +1,7 @@
 <template>
   <form class="custom-form">
     <h3>Kontaktaufnahme</h3>
-    <p>Sie möchten <span v-for="(supporter, index) in $store.state.formularSelectedObjects" :key="index">{{ supporter.title }}, </span> werden.</p>
+    <p>Sie möchten <span v-for="(supporter, index) in $store.state.formularSelectedObjects" :key="index">{{ supporter.title }} {{ index != $store.state.formularSelectedObjects.length -1 ? ',' : '' }} </span> werden.</p>
     <div class="form-row">
       <div class="formgroup">
         <label for="name">Vor- und Nachname</label>
