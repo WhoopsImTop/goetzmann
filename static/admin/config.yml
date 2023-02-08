@@ -74,3 +74,15 @@ collections:
       preview: false
     fields:
       - { label: "Bild", name: "image", widget: "image" }
+  - name: "wichtig"
+    label: "Wichtig"
+    format: "frontmatter"
+    extension: "md"
+    folder: "content/wichtig"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Inhalt", name: "body", widget: "markdown" }
