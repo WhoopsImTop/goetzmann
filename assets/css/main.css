@@ -595,6 +595,12 @@ button {
   );
 }
 
+.footer-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .footer .content-container {
   padding: 20px;
 }
@@ -825,9 +831,20 @@ button {
     max-width: 100%;
   }
 
-  @media (max-width: 400px) {
-    .banner-left {
-      top: 55%;
-    }
+  .footer-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .socialIcons {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .banner-left {
+    top: 55%;
   }
 }
