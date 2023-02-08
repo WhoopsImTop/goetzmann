@@ -25,9 +25,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        server: sftp://roman-goetzmann.de
+        server: roman-goetzmann.de
         username: 217993-194-khri8
-        port: 22
         password: ${{ secrets.password }}
         local-dir: './dist/'
         server-dir: 'wahl2023/'
