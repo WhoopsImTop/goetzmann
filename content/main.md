@@ -57,15 +57,15 @@ supporterText: Ich bedanke mich in vor hinein schon bei allen Helfer*innen,
 supporterCards:
   - materialTitle: Wahlhelfer*in
     materialText: Wir brauchen Unterstützung vor Ort ....
-    materialBtnText: Wahlhelfer*in werden
+    materialBtnText: Mitmachen
     materialBtnLink: "#"
     materialImage: /static/img/squared.svg
   - materialTitle: Spender*in
     materialText: Jede Spende ist willkommen ....
-    materialBtnText: Spender*in werden
+    materialBtnText: Spenden
     materialBtnLink: "#"
     materialImage: /static/img/squared.svg
-  - materialTitle: Anzeigen schalten
+  - materialTitle: Unterstützeranzeigen
     materialText: Wir sind dankbar über jede Unterstützeranzeige ....
     materialBtnText: Anzeige schalten
     materialBtnLink: "#"
