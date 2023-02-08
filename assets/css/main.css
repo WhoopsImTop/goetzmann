@@ -349,9 +349,9 @@ p {
 
 .banner-left {
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 0;
-  transform: translate(0, -40%);
+  transform: translate(0, -50%);
 }
 
 .date-banner {
@@ -785,9 +785,9 @@ button {
 
   .banner-left {
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 0;
-    transform: translate(0, -55%);
+    transform: translate(0, -40%);
   }
 
   .grid {
@@ -823,5 +823,11 @@ button {
 
   .card {
     max-width: 100%;
+  }
+
+  @media (max-width: 400px) {
+    .banner-left {
+      top: 55%;
+    }
   }
 }

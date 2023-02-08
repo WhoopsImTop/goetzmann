@@ -1,7 +1,7 @@
 ---
 landingTitle: Die ganze <br> Stadt im Blick
 landingSlogan: Bürgernah. Innovativ. Erfahren.
-landingImage: /static/img/header_gb.png
+landingImage: /static/img/roman-goetzmann-fotoshooting-waldkirch-stadt-16zu9.jpg
 bannerTitle: Liebe Bürgerinnen und Bürger
 bannerText: >-2
    **in Waldkirch, Kollnau, Buchholz, Siensbach und Suggental.**
