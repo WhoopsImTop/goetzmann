@@ -557,6 +557,16 @@ button {
   outline: none;
 }
 
+/* Costom Form */
+.custom-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: var(--primary-color-muted);
+  border-radius: 5px;
+}
+
 /* Footer */
 .footer {
   padding: 10px 0;

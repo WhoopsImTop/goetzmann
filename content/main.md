@@ -70,4 +70,6 @@ supporterCards:
     materialBtnText: Anzeige schalten
     materialBtnLink: "#"
     materialImage: /static/img/squared.svg
+contactEmail: "bucher@khri8.com"
+contactPhone: "015231241252"
 ---

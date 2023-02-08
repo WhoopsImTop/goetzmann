@@ -60,9 +60,7 @@
     >
       <template #header>
         <div class="row icons">
-          <a
-            href="https://www.instagram.com/romangoetzmann/"
-            target="_blank"
+          <a href="https://www.instagram.com/romangoetzmann/" target="_blank"
             ><img class="instagram-icon" src="/img/in.svg" alt="instagram"
           /></a>
           <a href="https://www.facebook.com/rgoetzmann" target="_blank"
@@ -91,18 +89,21 @@
     >
       <template #content>
         <div class="row justify-between">
-          <card
+          <radio-button
             v-for="(card, index) in $store.state.mainContent.supporterCards"
             :key="index"
             :contactAction="true"
             :title="card.materialTitle"
             :subtitle="card.materialText"
-            :image="card.materialImage.split('/static/')[1]"
-            :link="card.materialBtnLink"
-            :buttonText="card.materialBtnText"
-            btnColor="linear-gradient(90deg, #3B5999, #4EB0E1)"
+            :setAction="'setFormularSelectedObjects'"
+            :removeAction="'removeFormularSelectedObjects'"
+            :backgroundColor="'#F3F9FB'"
           />
         </div>
+        <formular-component
+          :backgroundColor="'linear-gradient(90deg, #3B5999, #4EB0E1)'"
+          v-show="$store.state.formularSelectedObjects.length != 0"
+        ></formular-component>
       </template>
     </Section>
     <contact-formular
@@ -117,7 +118,9 @@
 </template>
 
 <script>
+import radioButton from "~/components/radioButton.vue";
 export default {
+  components: { radioButton },
   data() {
     return {};
   },

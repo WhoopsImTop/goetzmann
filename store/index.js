@@ -3,7 +3,9 @@ export const state = () => ({
   formularQuestion:
     "Sie haben eine Frage? <br> Interesse an einem persönlichen Gespräch? <br> Ich freue mich über Ihre Nachricht!",
   formularSubject: "Anfrage über Kontaktformular",
+  formularSelectedObjects: [],
   instagram: [],
+  showContactForm: false,
 });
 
 export const getters = {
@@ -22,7 +24,22 @@ export const mutations = {
   },
   setInstagram(state, payload) {
     state.instagram = payload;
-  }
+  },
+  setFormularSelectedObjects(state, payload) {
+    state.formularSelectedObjects.push(payload);
+  },
+  removeFormularSelectedObjects(state, payload) {
+    //find payload.title in state.formularSelectedObjects and remove it
+    state.formularSelectedObjects = state.formularSelectedObjects.filter(
+      (item) => item.title !== payload.title
+    );
+  },
+  setContactForm(state, payload) {
+    state.showContactForm = true;
+  },
+  unsetContactForm(state, payload) {
+    state.showContactForm = false;
+  },
 };
 
 export const actions = {

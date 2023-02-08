@@ -61,6 +61,8 @@ collections:
           - { label: "Material Text", name: "materialText", widget: "markdown" }
           - { label: "Material Button Text", name: "materialBtnText", widget: "string" }
           - { label: "Material Button Link", name: "materialBtnLink", widget: "string" }
+      - { label: "Kontakt Email", name: "contactEmail", widget: "string" }
+      - { label: "Kontakt Telefon", name: "contactPhone", widget: "string" }
   - name: "instagram"
     label: "Instagram"
     format: "frontmatter"
