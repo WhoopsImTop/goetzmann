@@ -17,11 +17,11 @@ export default {
       links: [
         {
           name: "Oberbürgermeisterwahl 2023",
-          link: "#oberbuergermeisterwahl-2023",
+          link: "/",
           img: "img/obwahl.png",
           highlight: true
         },
-        {
+       /*  {
           name: "Infomaterial",
           link: "#infomaterial"
         },
@@ -36,7 +36,7 @@ export default {
         {
           name: "Kontakt",
           link: "#kontakt"
-        }
+        } */
       ]
     };
   },
