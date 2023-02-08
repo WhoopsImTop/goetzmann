@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <nuxt-content :document="article[0]"></nuxt-content>
+  <div class="content-container">
+    <nuxt-content :document="article"></nuxt-content>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 export default {
   layout: "default",
   async asyncData({ $content, params }) {
-    const article = await $content(params.slug).fetch();
+    const article = await $content('wichtig/', params.slug).fetch();
     return { article };
   },
 };
