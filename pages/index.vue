@@ -86,8 +86,8 @@
     </Section>
     <Section
       id="unterstuetzer-werden"
-      title="Unterstützer werden"
-      subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy. Lorem ipsum"
+      :title="$store.state.mainContent.supporterTitle"
+      :subtitle="$store.state.mainContent.supporterText"
     >
       <template #content>
         <div class="row justify-between">
