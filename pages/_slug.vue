@@ -1,5 +1,6 @@
 <template>
   <div>
+    <nuxt-content :document="article[0]"></nuxt-content>
   </div>
 </template>
 
