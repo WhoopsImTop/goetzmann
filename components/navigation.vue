@@ -2,9 +2,9 @@
     <div class="navigation-container" :class="verticalAlign ? 'vertical' : ''">
         <div class="navigation-content-container">
             <div class="navigation-content-image" :class="logoPosition">
-                <nuxt-link href="https://roman-goetzmann.de">
+                <a href="https://roman-goetzmann.de">
                     <img :src="logoImage" :alt="logoAlt" />
-                </nuxt-link>
+                </a>
             </div>
             <div class="burger" :class="active ? 'active' : ''" @click="active = !active">
                 <div class="burger-line"></div>
