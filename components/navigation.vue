@@ -2,7 +2,7 @@
     <div class="navigation-container" :class="verticalAlign ? 'vertical' : ''">
         <div class="navigation-content-container">
             <div class="navigation-content-image" :class="logoPosition">
-                <nuxt-link to="/">
+                <nuxt-link href="https://roman-goetzmann.de">
                     <img :src="logoImage" :alt="logoAlt" />
                 </nuxt-link>
             </div>
