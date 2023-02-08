@@ -1,5 +1,9 @@
 <template>
-  <div class="custom-radio" @click="toggleSelected" :style="backgroundColor ? 'background-color:' + backgroundColor : ''">
+  <div
+    class="custom-radio"
+    @click="toggleSelected"
+    :style="backgroundColor ? 'background-color:' + backgroundColor : ''"
+  >
     <div class="clickable-area" :class="active ? 'marked' : ''"></div>
     <div class="text-area">
       <h4>{{ title }}</h4>
@@ -59,14 +63,23 @@ export default {
   left: -25px;
   width: 50px;
   height: 50px;
+  background-image: url("/img/circle.svg");
+  background-size: 62%;
+  background-position: center;
+  background-repeat: no-repeat;
   border-radius: 50%;
   background-color: #fff;
   box-shadow: 0px 5px 20px #3b599950;
 }
 
+.custom-radio:hover .clickable-area {
+  background-image: url("/img/cross.svg");
+  background-size: 70% !important;
+}
+
 .marked {
   background-image: url("/img/cross.svg");
-  background-size: 70%;
+  background-size: 70% !important;
   background-position: center;
   background-repeat: no-repeat;
 }
