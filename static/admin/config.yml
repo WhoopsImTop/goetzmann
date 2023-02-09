@@ -46,6 +46,8 @@ collections:
           - { label: "Material Text", name: "materialText", widget: "markdown" }
           - { label: "Material Button Text", name: "materialBtnText", widget: "string" }
           - { label: "Material Button Link", name: "materialBtnLink", widget: "string" }
+      - { label: "Termin Titel", name: "terminTitle", widget: "string" }
+      - { label: "Termin Text", name: "terminText", widget: "markdown" }
       - { label: "Soziale Medien Titel", name: "sozialeMedienTitle", widget: "string" }
       - { label: "Soziale Medien Text", name: "sozialeMedienText", widget: "string" }
       - { label: "Unterstützer Titel", name: "supporterTitle", widget: "string" }
@@ -86,3 +88,17 @@ collections:
     fields:
       - { label: "Titel", name: "title", widget: "string" }
       - { label: "Inhalt", name: "body", widget: "markdown" }
+  - name: "termine"
+    label: "Termine"
+    format: "frontmatter"
+    extension: "md"
+    folder: "content/termine"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Beschreibung", name: "description", widget: "markdown" }
+      - { label: "Start time", name: "start", widget: "datetime", default: "", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL", picker_utc: false }
+      - { label: "Wochentag", name: "wochentag", widget: "string"}

@@ -48,6 +48,12 @@ infomaterial:
     materialBtnText: Download
     materialBtnLink: "#"
     materialImage: /static/img/roman-goetzmann-presse-waldkirch.jpg
+terminTitle: Termine
+terminText: >-
+  Die Terminübersicht wird regelmäßig mit weiteren Veranstaltungsterminen und
+  Infoständen aktualisiert. \
+
+  Gerne können Sie mich natürlich auch außerhalb von Wahlkampfterminen auf die Dinge ansprechen, die Ihnen am Herzen liegen.
 sozialeMedienTitle: SOZIALE MEDIEN
 sozialeMedienText: Folgen Sie mir im Wahlkampf auf den sozialen Medien. Schauen
   Sie hinter die Kulissen und nutzen die direkte Kommunikation.

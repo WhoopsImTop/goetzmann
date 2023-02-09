@@ -6,6 +6,7 @@ export const state = () => ({
   formularSelectedObjects: [],
   instagram: [],
   showContactForm: false,
+  termine: [],
 });
 
 export const getters = {
@@ -24,6 +25,17 @@ export const mutations = {
   },
   setInstagram(state, payload) {
     state.instagram = payload;
+  },
+  setTermine(state, payload) {
+    let sortedTermine = payload.sort((a, b) => {
+      return new Date(a.start) - new Date(b.start);
+    });
+
+    //remove past events
+    sortedTermine = sortedTermine.filter((item) => {
+      return new Date(item.start) > new Date();
+    });
+    state.termine = sortedTermine;
   },
   setFormularSelectedObjects(state, payload) {
     state.formularSelectedObjects.push(payload);
@@ -48,5 +60,7 @@ export const actions = {
     commit("setContent", content[0]);
     const instagram = await this.$content("/instagram").fetch();
     commit("setInstagram", instagram);
+    const termine = await this.$content("/termine").fetch();
+    commit("setTermine", termine);
   },
 };

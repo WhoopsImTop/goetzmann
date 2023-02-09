@@ -24,11 +24,15 @@ export default {
         /* {
           name: "Infomaterial",
           link: "#infomaterial"
+        }, */
+        {
+          name: "Termine",
+          link: "#termine"
         },
         {
           name: "Soziale Medien",
           link: "#soziale-medien"
-        }, */
+        },
         {
           name: "Wählerinitiative",
           link: "#unterstuetzer-werden"

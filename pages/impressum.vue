@@ -7,8 +7,12 @@
 <script>
 export default {
     async asyncData({ $content, params }) {
-        const article = await $content('wichtig/impressum').fetch();
-        return { article };
+        try {
+            const article = await $content('wichtig/impressum').fetch();
+            return { article };
+        } catch (error) {
+            console.log(error);
+        }
     },
 }
 </script>

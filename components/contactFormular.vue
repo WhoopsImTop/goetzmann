@@ -82,6 +82,7 @@ export default {
         fetch('/mail.php', {
           method: 'POST',
           body: new URLSearchParams({
+            subject: "Interesse an einem persönlichen Gespräch",
             name: this.name,
             email: this.email,
             nachricht: this.message,

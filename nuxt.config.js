@@ -1,7 +1,6 @@
 export default {
-  // Target: https://go.nuxtjs.dev/config-target
-  ssr: true,
   target: "static",
+  ssr: true,
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -14,9 +13,7 @@ export default {
       { hid: "description", name: "description", content: "" },
       { name: "format-detection", content: "telephone=no" },
     ],
-    link: [
-      { rel: "icon", type: "image/x-icon", href: "/img/cross.svg" },
-    ],
+    link: [{ rel: "icon", type: "image/x-icon", href: "/img/cross.svg" }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -29,7 +26,7 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [],
+  buildModules: ["nuxt-compress"],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -37,8 +34,17 @@ export default {
     "@nuxtjs/axios",
     // https://go.nuxtjs.dev/content
     "@nuxt/content",
-    "@nuxtjs/markdownit"
+    "@nuxtjs/markdownit",
   ],
+
+  "nuxt-compress": {
+    gzip: {
+      threshold: 8192,
+    },
+    brotli: {
+      threshold: 8192,
+    },
+  },
 
   markdownit: {
     runtime: true, // Support `$md()`
@@ -55,7 +61,24 @@ export default {
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
-  content: {
-    path: "/content/",
+  content: {},
+
+  build: {},
+
+  generate: {
+    fallback: true,
+    exclude: ["/impressum", "/datenschutz"],
+  },
+
+  router: {
+    scrollBehavior(to) {
+      if (to.hash) {
+        return window.scrollTo({
+          top: document.querySelector(to.hash).offsetTop,
+          behavior: "smooth",
+        });
+      }
+      return window.scrollTo({ top: 0, behavior: "smooth" });
+    },
   },
 };

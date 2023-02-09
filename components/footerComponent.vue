@@ -2,8 +2,8 @@
   <div class="footer">
     <div class="content-container footer-row">
       <div>
-        <nuxt-link to="impressum">Impressum</nuxt-link>
-        <nuxt-link to="datenschutz">Datenschutz</nuxt-link>
+        <nuxt-link to="/impressum">Impressum</nuxt-link>
+        <nuxt-link to="/datenschutz">Datenschutz</nuxt-link>
       </div>
       <div class="socialIcons">
         <a href="https://www.instagram.com/romangoetzmann/" target="_blank"><img src="img/in_w.svg" width="20"

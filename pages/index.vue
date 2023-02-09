@@ -4,7 +4,7 @@
       :textAsBanner="true" bannerColor="linear-gradient(90deg, #3B5999, #4EB0E1)">
       <h1 v-html="$store.state.mainContent.landingTitle"></h1>
     </LandingHeader>
-    <!-- <Banner id="oberbuergermeisterwahl-2023">
+    <Banner id="oberbuergermeisterwahl-2023">
       <template #content>
         <div class="grid">
           <div class="grid1">
@@ -22,13 +22,22 @@
         </div>
       </template>
     </Banner>
-    <Section id="infomaterial" :title="$store.state.mainContent.infomaterialTitle"
+    <!-- <Section id="infomaterial" :title="$store.state.mainContent.infomaterialTitle"
       :subtitle="$store.state.mainContent.infomaterialText">
       <template #content>
         <div class="row justify-between">
           <card v-for="(card, index) in $store.state.mainContent.infomaterial" :key="index" :title="card.materialTitle"
             :subtitle="card.materialText" :image="card.materialImage.split('/static/')[1]" :link="card.materialBtnLink"
             :buttonText="card.materialBtnText" btnColor="linear-gradient(90deg, #3B5999, #4EB0E1)" />
+        </div>
+      </template>
+    </Section> -->
+    <Section id="termine" :title="$store.state.mainContent.terminTitle" :subtitle="$store.state.mainContent.terminText">
+      <template #content>
+        <div class="row justify-between">
+          <termin-component v-for="(termin, index) in $store.state.termine" :key="index" :title="termin.title"
+            :subtitle="termin.description" :date="termin.start" :weekday="termin.wochentag"
+            :backgroundColor="'#F3F9FB'" />
         </div>
       </template>
     </Section>
@@ -50,8 +59,8 @@
           </a>
         </div>
       </template>
-    </Section> -->
-    <Section id="unterstuetzer-werden" style="background-color: #fff;" :title="$store.state.mainContent.supporterTitle"
+    </Section>
+    <Section id="unterstuetzer-werden" :title="$store.state.mainContent.supporterTitle"
       :subtitle="$store.state.mainContent.supporterText">
       <template #content>
         <div class="row justify-between">
@@ -83,7 +92,11 @@ export default {
   layout: "default",
   head() { },
   async fetch({ params, store: { dispatch, getters } }) {
-    await dispatch("getContents");
+    try {
+      await dispatch("getContents");
+    } catch (err) {
+      console.log(err)
+    }
   },
 };
 </script>
