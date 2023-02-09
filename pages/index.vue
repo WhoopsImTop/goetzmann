@@ -4,7 +4,7 @@
       :textAsBanner="true" bannerColor="linear-gradient(90deg, #3B5999, #4EB0E1)">
       <h1 v-html="$store.state.mainContent.landingTitle"></h1>
     </LandingHeader>
-    <Banner id="oberbuergermeisterwahl-2023">
+    <Banner class="section" id="oberbuergermeisterwahl-2023">
       <template #content>
         <div class="grid">
           <div class="grid1">
@@ -32,7 +32,7 @@
         </div>
       </template>
     </Section> -->
-    <Section id="termine" :title="$store.state.mainContent.terminTitle" :subtitle="$store.state.mainContent.terminText">
+    <Section class="section" id="termine" :title="$store.state.mainContent.terminTitle" :subtitle="$store.state.mainContent.terminText">
       <template #content>
         <div class="row justify-between">
           <termin-component v-for="(termin, index) in $store.state.termine" :key="index" :title="termin.title"
@@ -41,7 +41,7 @@
         </div>
       </template>
     </Section>
-    <Section id="soziale-medien" :title="$store.state.mainContent.sozialeMedienTitle"
+    <Section class="section" id="soziale-medien" :title="$store.state.mainContent.sozialeMedienTitle"
       :subtitle="$store.state.mainContent.sozialeMedienText">
       <template #header>
         <div class="row icons">
@@ -60,7 +60,7 @@
         </div>
       </template>
     </Section>
-    <Section id="unterstuetzer-werden" :title="$store.state.mainContent.supporterTitle"
+    <Section class="section" id="unterstuetzer-werden" :title="$store.state.mainContent.supporterTitle"
       :subtitle="$store.state.mainContent.supporterText">
       <template #content>
         <div class="row justify-between">
@@ -73,7 +73,7 @@
           v-show="$store.state.formularSelectedObjects.length != 0"></formular-component>
       </template>
     </Section>
-    <contact-formular id="kontakt" backgroundColor="linear-gradient(90deg, #3B5999, #4EB0E1)">
+    <contact-formular class="section" id="kontakt" backgroundColor="linear-gradient(90deg, #3B5999, #4EB0E1)">
       <template #content>
         <img src="/img/gm_smartphone.png" alt="Portrait Roman Götzmann" />
       </template>

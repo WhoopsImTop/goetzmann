@@ -252,6 +252,11 @@ p {
   color: var(--primary-color-hover);
 }
 
+.navigation-link.active {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
 .navigation-container.vertical {
   position: fixed;
   left: 0px;

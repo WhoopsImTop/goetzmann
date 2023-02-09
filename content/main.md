@@ -55,8 +55,8 @@ terminText: >-
 
   Gerne können Sie mich natürlich auch außerhalb von Wahlkampfterminen auf die Dinge ansprechen, die Ihnen am Herzen liegen.
 sozialeMedienTitle: SOZIALE MEDIEN
-sozialeMedienText: Folgen Sie mir im Wahlkampf auf den sozialen Medien. Schauen
-  Sie hinter die Kulissen und nutzen die direkte Kommunikation.
+sozialeMedienText: Folgen Sie mir im Wahlkampf. Schauen
+  Sie hinter die Kulissen und nutzen die direkte Kommunikation mit Facebook und Instagram.
 supporterTitle: Wählerinitiative
 supporterText: >-
   Ein Wahlkampf ist zeitintensiv und braucht viele helfende Hände. \
