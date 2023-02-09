@@ -8,7 +8,7 @@
     >
       <h1 v-html="$store.state.mainContent.landingTitle"></h1>
     </LandingHeader>
-    <!-- <Banner id="oberbuergermeisterwahl-2023">
+    <Banner id="oberbuergermeisterwahl-2023">
       <template #content>
         <div class="grid">
           <div class="grid1">
@@ -112,7 +112,7 @@
       <template #content>
         <img src="/img/gm_smartphone.png" alt="Portrait Roman Götzmann" />
       </template>
-    </contact-formular> -->
+    </contact-formular>
   </div>
 </template>
 
