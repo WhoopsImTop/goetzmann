@@ -564,6 +564,12 @@ p {
   margin-right: 10px;
 }
 
+.contact-mail {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
 button {
   width: max-content;
   padding: 10px 15px;

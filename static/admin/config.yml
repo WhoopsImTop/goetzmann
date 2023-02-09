@@ -62,7 +62,7 @@ collections:
           - { label: "Material Button Text", name: "materialBtnText", widget: "string" }
           - { label: "Material Button Link", name: "materialBtnLink", widget: "string" }
       - { label: "Kontakt Email", name: "contactEmail", widget: "string" }
-      - { label: "Kontakt Telefon", name: "contactPhone", widget: "string" }
+      - { label: "Kontakt Telefon", name: "contactPhone", widget: "string", required: false }
   - name: "instagram"
     label: "Instagram"
     format: "frontmatter"

@@ -4,7 +4,7 @@
       :textAsBanner="true" bannerColor="linear-gradient(90deg, #3B5999, #4EB0E1)">
       <h1 v-html="$store.state.mainContent.landingTitle"></h1>
     </LandingHeader>
-    <Banner id="oberbuergermeisterwahl-2023">
+    <!-- <Banner id="oberbuergermeisterwahl-2023">
       <template #content>
         <div class="grid">
           <div class="grid1">
@@ -50,8 +50,8 @@
           </a>
         </div>
       </template>
-    </Section>
-    <Section id="unterstuetzer-werden" :title="$store.state.mainContent.supporterTitle"
+    </Section> -->
+    <Section id="unterstuetzer-werden" style="background-color: #fff;" :title="$store.state.mainContent.supporterTitle"
       :subtitle="$store.state.mainContent.supporterText">
       <template #content>
         <div class="row justify-between">

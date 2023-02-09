@@ -3,7 +3,7 @@
     <h3>Kontaktaufnahme</h3>
     <p>Vielen Dank für Ihre Unterstützung. <br> Ihre Auswahl:
     <ul>
-      <li v-for="(supporter, index) in $store.state.formularSelectedObjects" :key="index">{{ supporter.title }}</li>
+      <li v-for="(supporter, index) in $store.state.formularSelectedObjects" :key="index">{{ supporter.subtitle }}</li>
     </ul>
     </p>
     <div class="form-row">
@@ -22,7 +22,7 @@
     </div>
     <div class="formgroup checkbox">
       <input type="checkbox" id="privacy" name="privacy" v-model="privacy" placeholder="Datenschutz" />
-      <span for="privacy">Ich habe die <a href="#">Datenschutzerklärung</a> gelesen und
+      <span for="privacy">Ich habe die <a href="https://roman-goetzmann.de/datenschutz" target="_blank">Datenschutzerklärung</a> gelesen und
         akzeptiere diese.</span>
     </div>
     <div class="formgroup">

@@ -5,10 +5,10 @@
         <h2>Kontakt</h2>
         <p v-html="$store.state.formularQuestion"></p>
 
-        <a :href="'mailto:' + $store.state.mainContent.contactEmail">{{
+        <a class="contact-mail" :href="'mailto:' + $store.state.mainContent.contactEmail">{{
           $store.state.mainContent.contactEmail
         }}</a>
-        <a :href="'tel:' + $store.state.mainContent.contactPhone">{{
+        <a v-if="$store.state.mainContent.contactPhone" :href="'tel:' + $store.state.mainContent.contactPhone">{{
           $store.state.mainContent.contactPhone
         }}</a>
 
