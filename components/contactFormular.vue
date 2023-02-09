@@ -79,14 +79,9 @@ export default {
         document.getElementById("error").innerHTML =
           "Bitte füllen Sie alle Felder aus und stimmen Sie der Datenschutzerklärung zu.";
       } else {
-        let subject = this.$store.state.formularSelectedObjects.map(
-          (supporter) => supporter.title
-        );
-
         fetch('/mail.php', {
           method: 'POST',
           body: new URLSearchParams({
-            subject: subject,
             name: this.name,
             email: this.email,
             nachricht: this.message,

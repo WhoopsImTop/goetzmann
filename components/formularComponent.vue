@@ -22,7 +22,8 @@
     </div>
     <div class="formgroup checkbox">
       <input type="checkbox" id="privacy" name="privacy" v-model="privacy" placeholder="Datenschutz" />
-      <span for="privacy">Ich habe die <a href="https://roman-goetzmann.de/datenschutz" target="_blank">Datenschutzerklärung</a> gelesen und
+      <span for="privacy">Ich habe die <a href="https://roman-goetzmann.de/datenschutz"
+          target="_blank">Datenschutzerklärung</a> gelesen und
         akzeptiere diese.</span>
     </div>
     <div class="formgroup">
@@ -57,9 +58,13 @@ export default {
         document.getElementById("error2").innerHTML =
           "Bitte füllen Sie alle Felder aus und stimmen Sie der Datenschutzerklärung zu.";
       } else {
+        let subject = this.$store.state.formularSelectedObjects.map(
+          (supporter) => supporter.title
+        );
         fetch('/mail.php', {
           method: 'POST',
-          body: new URLSearchParams({
+          body: new URLSearchParams({            
+            subject: subject,
             name: this.name,
             email: this.email,
             nachricht: this.message,
