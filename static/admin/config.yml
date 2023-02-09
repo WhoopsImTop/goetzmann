@@ -49,7 +49,7 @@ collections:
       - { label: "Soziale Medien Titel", name: "sozialeMedienTitle", widget: "string" }
       - { label: "Soziale Medien Text", name: "sozialeMedienText", widget: "string" }
       - { label: "Unterstützer Titel", name: "supporterTitle", widget: "string" }
-      - { label: "Unterstützer Text", name: "supporterText", widget: "string" }
+      - { label: "Unterstützer Text", name: "supporterText", widget: "markdown" }
       - label: "Unterstützer Karten"
         name: "supporterCards"
         widget: "list"

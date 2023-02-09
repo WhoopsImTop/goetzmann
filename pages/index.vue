@@ -1,11 +1,7 @@
 <template>
   <div>
-    <LandingHeader
-      :background="$store.state.mainContent.landingImage.split('/static/')[1]"
-      textPosition="left"
-      :textAsBanner="true"
-      bannerColor="linear-gradient(90deg, #3B5999, #4EB0E1)"
-    >
+    <LandingHeader :background="$store.state.mainContent.landingImage.split('/static/')[1]" textPosition="left"
+      :textAsBanner="true" bannerColor="linear-gradient(90deg, #3B5999, #4EB0E1)">
       <h1 v-html="$store.state.mainContent.landingTitle"></h1>
     </LandingHeader>
     <Banner id="oberbuergermeisterwahl-2023">
@@ -16,99 +12,59 @@
             <p v-html="$md.render($store.state.mainContent.bannerText)"></p>
           </div>
           <div class="grid2 centered">
-            <img
-              width="200"
-              :src="
-                $store.state.mainContent.bannerImage
-                  ? $store.state.mainContent.bannerImage.split('/static/')[1]
-                  : ''
-              "
-              alt="wählen"
-            />
-            <p
-              v-html="$md.render($store.state.mainContent.bannerSubtitle ?? '')"
-            ></p>
+            <img width="200" :src="
+              $store.state.mainContent.bannerImage
+                ? $store.state.mainContent.bannerImage.split('/static/')[1]
+                : ''
+            " alt="wählen" />
+            <p v-html="$md.render($store.state.mainContent.bannerSubtitle ?? '')"></p>
           </div>
         </div>
       </template>
     </Banner>
-    <Section
-      id="infomaterial"
-      :title="$store.state.mainContent.infomaterialTitle"
-      :subtitle="$store.state.mainContent.infomaterialText"
-    >
+    <Section id="infomaterial" :title="$store.state.mainContent.infomaterialTitle"
+      :subtitle="$store.state.mainContent.infomaterialText">
       <template #content>
         <div class="row justify-between">
-          <card
-            v-for="(card, index) in $store.state.mainContent.infomaterial"
-            :key="index"
-            :title="card.materialTitle"
-            :subtitle="card.materialText"
-            :image="card.materialImage.split('/static/')[1]"
-            :link="card.materialBtnLink"
-            :buttonText="card.materialBtnText"
-            btnColor="linear-gradient(90deg, #3B5999, #4EB0E1)"
-          />
+          <card v-for="(card, index) in $store.state.mainContent.infomaterial" :key="index" :title="card.materialTitle"
+            :subtitle="card.materialText" :image="card.materialImage.split('/static/')[1]" :link="card.materialBtnLink"
+            :buttonText="card.materialBtnText" btnColor="linear-gradient(90deg, #3B5999, #4EB0E1)" />
         </div>
       </template>
     </Section>
-    <Section
-      id="soziale-medien"
-      :title="$store.state.mainContent.sozialeMedienTitle"
-      :subtitle="$store.state.mainContent.sozialeMedienText"
-    >
+    <Section id="soziale-medien" :title="$store.state.mainContent.sozialeMedienTitle"
+      :subtitle="$store.state.mainContent.sozialeMedienText">
       <template #header>
         <div class="row icons">
-          <a href="https://www.instagram.com/romangoetzmann/" target="_blank"
-            ><img class="instagram-icon" src="/img/in.svg" alt="instagram"
-          /></a>
-          <a href="https://www.facebook.com/rgoetzmann" target="_blank"
-            ><img class="facebook-icon" src="/img/fb.svg" alt="facebook"
-          /></a>
+          <a href="https://www.instagram.com/romangoetzmann/" target="_blank"><img class="instagram-icon"
+              src="/img/in.svg" alt="instagram" /></a>
+          <a href="https://www.facebook.com/rgoetzmann" target="_blank"><img class="facebook-icon" src="/img/fb.svg"
+              alt="facebook" /></a>
         </div>
       </template>
       <template #content>
         <div class="row justify-between">
-          <a
-            href="https://www.instagram.com/romangoetzmann/"
-            target="_blank"
-            v-for="(post, index) in $store.state.instagram"
-            class="instagram-image"
-            :key="index"
-          >
+          <a href="https://www.instagram.com/romangoetzmann/" target="_blank"
+            v-for="(post, index) in $store.state.instagram" class="instagram-image" :key="index">
             <img :src="post.image.split('/static/')[1]" :alt="index" />
           </a>
         </div>
       </template>
     </Section>
-    <Section
-      id="unterstuetzer-werden"
-      :title="$store.state.mainContent.supporterTitle"
-      :subtitle="$store.state.mainContent.supporterText"
-    >
+    <Section id="unterstuetzer-werden" :title="$store.state.mainContent.supporterTitle"
+      :subtitle="$store.state.mainContent.supporterText">
       <template #content>
         <div class="row justify-between">
-          <radio-button
-            v-for="(card, index) in $store.state.mainContent.supporterCards"
-            :key="index"
-            :contactAction="true"
-            :title="card.materialTitle"
-            :subtitle="card.materialText"
-            :setAction="'setFormularSelectedObjects'"
-            :removeAction="'removeFormularSelectedObjects'"
-            :backgroundColor="'#F3F9FB'"
-          />
+          <radio-button v-for="(card, index) in $store.state.mainContent.supporterCards" :key="index"
+            :contactAction="true" :title="card.materialTitle" :subtitle="card.materialText"
+            :setAction="'setFormularSelectedObjects'" :removeAction="'removeFormularSelectedObjects'"
+            :backgroundColor="'#F3F9FB'" />
         </div>
-        <formular-component
-          :backgroundColor="'linear-gradient(90deg, #3B5999, #4EB0E1)'"
-          v-show="$store.state.formularSelectedObjects.length != 0"
-        ></formular-component>
+        <formular-component :backgroundColor="'linear-gradient(90deg, #3B5999, #4EB0E1)'"
+          v-show="$store.state.formularSelectedObjects.length != 0"></formular-component>
       </template>
     </Section>
-    <contact-formular
-      id="kontakt"
-      backgroundColor="linear-gradient(90deg, #3B5999, #4EB0E1)"
-    >
+    <contact-formular id="kontakt" backgroundColor="linear-gradient(90deg, #3B5999, #4EB0E1)">
       <template #content>
         <img src="/img/gm_smartphone.png" alt="Portrait Roman Götzmann" />
       </template>
@@ -125,7 +81,7 @@ export default {
   },
   name: "IndexPage",
   layout: "default",
-  head() {},
+  head() { },
   async fetch({ params, store: { dispatch, getters } }) {
     await dispatch("getContents");
   },
@@ -133,4 +89,5 @@ export default {
 </script>
 
 <style>
+
 </style>

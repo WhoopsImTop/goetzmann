@@ -5,7 +5,7 @@
         <div class="row justify-between">
           <div>
             <h3>{{ title }}</h3>
-            <p>{{ subtitle }}</p>
+            <p v-html="$md.render(subtitle ?? '')"></p>
           </div>
           <div class="align-end section-icons">
             <slot name="header"></slot>

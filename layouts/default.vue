@@ -30,7 +30,7 @@ export default {
           link: "#soziale-medien"
         },
         {
-          name: "Unterstützer werden",
+          name: "Wählerinitiative",
           link: "#unterstuetzer-werden"
         },
         {

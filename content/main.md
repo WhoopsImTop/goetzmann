@@ -3,7 +3,7 @@ landingTitle: Die ganze <br> Stadt im Blick
 landingSlogan: Bürgernah. Innovativ. Erfahren.
 landingImage: /static/img/roman-goetzmann-fotoshooting-waldkirch-stadt-16zu9.jpg
 bannerTitle: Liebe Bürgerinnen und Bürger
-bannerText: >-2
+bannerText: >2-
    **in Waldkirch, Kollnau, Buchholz, Siensbach und Suggental.**
 
   Vor acht Jahren haben Sie mir das Vertrauen geschenkt, als Oberbürgermeister unsere Stadt mit allen Ortsteilen mitgestalten zu dürfen. Vieles haben wir in diesen Jahren vorangebracht: den städtischen Wohnungsbau, die fortlaufende Sanierung unserer Einrichtungen, den Ausbau der Kinderbetreuung, die Digitalisierung der Schulen und einiges mehr. Prioritäten setzen und das Wichtige nicht aus den Augen verlieren: darauf kommt es an!
@@ -52,13 +52,18 @@ sozialeMedienTitle: SOZIALE MEDIEN
 sozialeMedienText: Folgen Sie mir im Wahlkampf auf den sozialen Medien. Schauen
   Sie hinter die Kulissen und nutzen die direkte Kommunikation.
 supporterTitle: Wählerinitiative
-supporterText: "Ein Wahlkampf ist zeitintensiv und braucht viele helfende Hände.
+supporterText: >-
+  Ein Wahlkampf ist zeitintensiv und braucht viele helfende Hände.
   Es ist auf vielen Wegen möglich, mich zu unterstützen, damit ich meine
   erfolgreiche Arbeit in den kommenden acht Jahren fortsetzen kann. Ob die
   Verteilung von Prospekten, eine Geldspende oder die Teilnahme an
   Unterstützungs-Anzeigen: vieles ist möglich und ich bin dankbar über jeden
-  Beitrag.  Nehmen Sie gerne mit dem u.g. Formular Kontakt zur Wählerinitiative
-  auf, wir kommen gerne auf Sie zu!"
+  Beitrag.
+
+  #### Unterstützer*in werden
+  
+  Treffen Sie ihre Auswahl und nehmen Sie gerne mit dem u.g. Formular Kontakt zur Wählerinitiative
+  auf, wir kommen gerne auf Sie zu!
 supporterCards:
   - materialTitle: Unterstützer*in
     materialText: Unterstützung vor Ort.
@@ -66,12 +71,12 @@ supporterCards:
     materialBtnLink: "#"
     materialImage: /static/img/squared.svg
   - materialTitle: Spender*in
-    materialText: Kontonummer ...
+    materialText: Kontodaten erhalten.
     materialBtnText: Spenden
     materialBtnLink: "#"
     materialImage: /static/img/squared.svg
   - materialTitle: Unterstützeranzeigen
-    materialText: V﻿ielen Dank für Ihre Unterstützung.
+    materialText: Informationen zur Anzeigenschaltung.
     materialBtnText: Anzeige schalten
     materialBtnLink: "#"
     materialImage: /static/img/squared.svg
