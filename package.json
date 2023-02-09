@@ -7,7 +7,7 @@
     "dev-old": "nuxt",
     "build": "set NODE_OPTIONS=--openssl-legacy-provider && nuxt build",
     "start": "nuxt start",
-    "generate": "set NODE_OPTIONS=--openssl-legacy-provider && nuxt generate",
+    "generate": "nuxt generate",
     "test": "jest"
   },
   "dependencies": {

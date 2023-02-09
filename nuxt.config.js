@@ -1,6 +1,6 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
-  ssr: false,
+  ssr: true,
   target: "static",
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -57,22 +57,5 @@ export default {
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
     path: "/content/",
-  },
-
-  generate: {
-    fallback: 'index.html'
-  },
-
-  // Route module configuration: https://go.nuxtjs.dev/config-router
-  router: {
-    scrollBehavior(to) {
-      if (to.hash) {
-        return window.scrollTo({
-          top: document.querySelector(to.hash).offsetTop,
-          behavior: "smooth",
-        });
-      }
-      return window.scrollTo({ top: 0, behavior: "smooth" });
-    },
   },
 };
