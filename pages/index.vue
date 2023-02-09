@@ -90,7 +90,78 @@ export default {
   },
   name: "IndexPage",
   layout: "default",
-  head() { },
+  head() { 
+    return {
+      title: "Roman Götzmann - Oberbürgermeisterwahl 2023",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "Roman Götzmann - Oberbürgermeisterwahl 2023",
+        },
+        {
+          hid: "og:title",
+          property: "og:title",
+          content: "Roman Götzmann - Oberbürgermeisterwahl 2023",
+        },
+        {
+          hid: "og:description",
+          property: "og:description",
+          content: "Roman Götzmann - Oberbürgermeisterwahl 2023",
+        },
+        {
+          hid: "og:image",
+          property: "og:image",
+          content: "https://www.romangoetzmann.de/img/goetzmann-fotoshooting-069-tal-hintegrund-grafik-1zu1.jpg",
+        },
+        {
+          hid: "og:url",
+          property: "og:url",
+          content: "https://www.romangoetzmann.de/",
+        },
+        {
+          hid: "og:type",
+          property: "og:type",
+          content: "website",
+        },
+        {
+          hid: "og:site_name",
+          property: "og:site_name",
+          content: "Roman Götzmann - Oberbürgermeisterwahl 2023",
+        },
+        {
+          hid: "twitter:card",
+          name: "twitter:card",
+          content: "summary_large_image",
+        },
+        {
+          hid: "twitter:site",
+          name: "twitter:site",
+          content: "@romangoetzmann",
+        },
+        {
+          hid: "twitter:creator",
+          name: "twitter:creator",
+          content: "@romangoetzmann",
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: "Roman Götzmann - Oberbürgermeisterwahl 2023",
+        },
+        {
+          hid: "twitter:description",
+          name: "twitter:description",
+          content: "Roman Götzmann - Oberbürgermeisterwahl 2023",
+        },
+        {
+          hid: "twitter:image",
+          name: "twitter:image",
+          content: "https://www.romangoetzmann.de/img/goetzmann-fotoshooting-069-tal-hintegrund-grafik-1zu1.jpg",
+        },
+      ],
+    };
+  },
   async fetch({ params, store: { dispatch, getters } }) {
     try {
       await dispatch("getContents");
