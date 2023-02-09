@@ -21,14 +21,14 @@ export default {
           img: "img/obwahl.png",
           highlight: true
         },
-        {
+        /* {
           name: "Infomaterial",
           link: "#infomaterial"
         },
         {
           name: "Soziale Medien",
           link: "#soziale-medien"
-        },
+        }, */
         {
           name: "Wählerinitiative",
           link: "#unterstuetzer-werden"
