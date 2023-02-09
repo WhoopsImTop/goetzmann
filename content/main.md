@@ -52,10 +52,15 @@ sozialeMedienTitle: SOZIALE MEDIEN
 sozialeMedienText: Folgen Sie mir im Wahlkampf auf den sozialen Medien. Schauen
   Sie hinter die Kulissen und nutzen die direkte Kommunikation.
 supporterTitle: Wählerinitiative
-supporterText: Ich bedanke mich in vor hinein schon bei allen Helfer*innen,
-  Spender*innen und für jegliche Unterstützung.
+supporterText: "Ein Wahlkampf ist zeitintensiv und braucht viele helfende Hände.
+  Es ist auf vielen Wegen möglich, mich zu unterstützen, damit ich meine
+  erfolgreiche Arbeit in den kommenden acht Jahren fortsetzen kann. Ob die
+  Verteilung von Prospekten, eine Geldspende oder die Teilnahme an
+  Unterstützungs-Anzeigen: vieles ist möglich und ich bin dankbar über jeden
+  Beitrag.  Nehmen Sie gerne mit dem u.g. Formular Kontakt zur Wählerinitiative
+  auf, wir kommen gerne auf Sie zu!"
 supporterCards:
-  - materialTitle: Wahlhelfer*in
+  - materialTitle: Unterstützer*in
     materialText: Unterstützung vor Ort.
     materialBtnText: Mitmachen
     materialBtnLink: "#"
@@ -70,6 +75,6 @@ supporterCards:
     materialBtnText: Anzeige schalten
     materialBtnLink: "#"
     materialImage: /static/img/squared.svg
-contactEmail: "bucher@khri8.com"
+contactEmail: bucher@khri8.com
 contactPhone: "015231241252"
 ---
