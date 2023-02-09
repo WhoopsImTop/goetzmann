@@ -60,7 +60,7 @@ export default {
   },
 
   generate: {
-    fallback: true
+    fallback: 'index.html'
   },
 
   // Route module configuration: https://go.nuxtjs.dev/config-router
