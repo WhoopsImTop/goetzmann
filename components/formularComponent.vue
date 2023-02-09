@@ -74,6 +74,10 @@ export default {
             if (response.ok) {
               document.getElementById("error2").innerHTML =
                 "Ihre Nachricht wurde erfolgreich versendet.";
+              this.name = "";
+              this.email = "";
+              this.message = "";
+              this.privacy = false;
             } else {
               document.getElementById("error2").innerHTML =
                 "Ihre Nachricht konnte nicht versendet werden.";
