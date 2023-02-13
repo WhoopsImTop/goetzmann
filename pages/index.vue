@@ -22,7 +22,7 @@
         </div>
       </template>
     </Banner>
-    <Section id="infomaterial" :title="$store.state.mainContent.infomaterialTitle"
+    <!-- <Section id="infomaterial" :title="$store.state.mainContent.infomaterialTitle"
       :subtitle="$store.state.mainContent.infomaterialText">
       <template #content>
         <div class="row justify-between">
@@ -31,14 +31,13 @@
             :buttonText="card.materialBtnText" btnColor="linear-gradient(90deg, #3B5999, #4EB0E1)" />
         </div>
       </template>
-    </Section>
+    </Section> -->
     <Section class="section" id="termine" :title="$store.state.mainContent.terminTitle"
       :subtitle="$store.state.mainContent.terminText">
       <template #content>
         <div class="row justify-between">
           <termin-component v-for="(termin, index) in $store.state.termine" :key="index" :title="termin.title"
-            :subtitle="termin.description" :date="termin.start" :weekday="termin.wochentag"
-            :backgroundColor="'#F3F9FB'" />
+            :subtitle="termin.description" :date="termin.start" :weekday="termin.wochentag" />
         </div>
       </template>
     </Section>
@@ -53,12 +52,7 @@
         </div>
       </template>
       <template #content>
-        <div class="row justify-between">
-          <a href="https://www.instagram.com/romangoetzmann/" target="_blank"
-            v-for="(post, index) in $store.state.instagram" class="instagram-image" :key="index">
-            <img :src="post.image.split('/static/')[1]" :alt="index" />
-          </a>
-        </div>
+        <iframe src="https://widget.taggbox.com/122457" style="width:100%;height:800px;border:none;"></iframe>
       </template>
     </Section>
     <Section class="section" id="unterstuetzer-werden" :title="$store.state.mainContent.supporterTitle"
@@ -67,8 +61,7 @@
         <div class="row justify-between">
           <radio-button v-for="(card, index) in $store.state.mainContent.supporterCards" :key="index"
             :contactAction="true" :title="card.materialTitle" :subtitle="card.materialText"
-            :setAction="'setFormularSelectedObjects'" :removeAction="'removeFormularSelectedObjects'"
-            :backgroundColor="'#F3F9FB'" />
+            :setAction="'setFormularSelectedObjects'" :removeAction="'removeFormularSelectedObjects'" />
         </div>
         <formular-component :backgroundColor="'linear-gradient(90deg, #3B5999, #4EB0E1)'"
           v-show="$store.state.formularSelectedObjects.length != 0"></formular-component>
@@ -88,38 +81,6 @@ export default {
   components: { radioButton },
   data() {
     return {};
-  },
-  mounted() {
-    document.addEventListener('DOMContentLoaded', function () {
-
-      // grab the sections (targets) and menu_links (triggers)
-      // for menu items to apply active link styles to
-      const sections = document.querySelectorAll(".section");
-      const menu_links = document.querySelectorAll(".navigation-link");
-
-      // functions to add and remove the active class from links as appropriate
-      const makeActive = (link) => { menu_links[link].classList.add("active") }
-      const removeActive = (link) => menu_links[link].classList.remove("active");
-      const removeAllActive = () => [...Array(sections.length).keys()].forEach((link) => removeActive(link));
-
-      const sectionMargin = 200;
-
-      let currentActive = 0;
-
-      // listen for scroll events
-      window.addEventListener("scroll", () => {
-        const current = sections.length - [...sections].reverse().findIndex((section) => window.scrollY >= section.offsetTop - sectionMargin) - 1
-
-        // only if the section has changed
-        // remove active class from all menu links
-        // and then apply it to the link for the current section
-        if (current !== currentActive) {
-          removeAllActive();
-          currentActive = current;
-          makeActive(current);
-        }
-      });
-    }, false);
   },
   name: "IndexPage",
   layout: "default",

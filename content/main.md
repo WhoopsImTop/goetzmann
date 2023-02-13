@@ -9,7 +9,7 @@ bannerText: >-2
   Vor acht Jahren haben Sie mir das Vertrauen geschenkt, als Oberbürgermeister unsere Stadt mit allen Ortsteilen mitgestalten zu dürfen. Vieles haben wir in diesen Jahren vorangebracht: den städtischen Wohnungsbau, die fortlaufende Sanierung unserer Einrichtungen, den Ausbau der Kinderbetreuung, die Digitalisierung der Schulen und einiges mehr. Prioritäten setzen und das Wichtige nicht aus den Augen verlieren: darauf kommt es an!
 
 
-  Zusätzlich brachten die Flüchtlingskrise sowie die Pandemie-Jahren besondere Herausforderungen mit sich, die wir gemeinsam gemeistert haben. Dies alles kann nur gelingen, mit einem guten Team in der Verwaltung und der Mitarbeit vieler helfender Hände im ehrenamtlichen Bereich. Das zeichnet unsere Stadt aus, dafür bin ich dankbar.
+  Zusätzlich brachten die Flüchtlingskrise sowie die Pandemie-Jahre besondere Herausforderungen mit sich, die wir gemeinsam gemeistert haben. Dies alles kann nur gelingen, mit einem guten Team in der Verwaltung und der Mitarbeit vieler helfender Hände im ehrenamtlichen Bereich. Das zeichnet unsere Stadt aus, dafür bin ich dankbar.
 
 
   Meine Frau, meine Kinder und ich haben hier unsere Heimat gefunden. Diese Heimat will ich weiterhin gut in die Zukunft bringen und stelle mich gerne den Herausforderungen der kommenden acht Jahren. 

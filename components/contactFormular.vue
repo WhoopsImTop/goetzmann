@@ -1,5 +1,5 @@
 <template>
-  <div class="mute">
+  <div>
     <div class="content-container row">
       <div class="col">
         <h2>Kontakt</h2>
@@ -14,7 +14,7 @@
 
         <radio-button style="margin-top: 30px;" title="Interesse an einem persönlichen Gespräch?"
           subtitle="Ich freue mich über Ihre Nachricht!" :setAction="'setContactForm'"
-          :removeAction="'unsetContactForm'" />
+          :removeAction="'unsetContactForm'" :backgroundColor="'#F3F9FB'"/>
         <form class="form" v-show="$store.state.showContactForm">
           <div class="formgroup">
             <label for="name">Vor- und Nachname</label>
