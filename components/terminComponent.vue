@@ -28,7 +28,7 @@
     border-radius: 5px;
     background-color: #fff;
     position: relative;
-    margin: 20px 0;
+    margin: 20px 20px;
     width: 45%;
     min-width: 400px;
   }

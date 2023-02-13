@@ -14,6 +14,13 @@ export default {
             console.log(error);
         }
     },
+    async fetch({ params, store: { dispatch, getters } }) {
+        try {
+            await dispatch("getContents");
+        } catch (err) {
+            console.log(err)
+        }
+    },
 }
 </script>
 

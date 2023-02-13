@@ -78,6 +78,7 @@ export default {
               this.email = "";
               this.message = "";
               this.privacy = false;
+              window.location.href = "/email-bestaetigung";
             } else {
               document.getElementById("error2").innerHTML =
                 "Ihre Nachricht konnte nicht versendet werden.";

@@ -22,7 +22,7 @@
         </div>
       </template>
     </Banner>
-    <!-- <Section id="infomaterial" :title="$store.state.mainContent.infomaterialTitle"
+    <Section id="infomaterial" :title="$store.state.mainContent.infomaterialTitle"
       :subtitle="$store.state.mainContent.infomaterialText">
       <template #content>
         <div class="row justify-between">
@@ -31,7 +31,7 @@
             :buttonText="card.materialBtnText" btnColor="linear-gradient(90deg, #3B5999, #4EB0E1)" />
         </div>
       </template>
-    </Section> -->
+    </Section>
     <Section class="section" id="termine" :title="$store.state.mainContent.terminTitle"
       :subtitle="$store.state.mainContent.terminText">
       <template #content>

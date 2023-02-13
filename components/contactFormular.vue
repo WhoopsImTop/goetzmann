@@ -92,6 +92,10 @@ export default {
             if (response.ok) {
               document.getElementById("error").innerHTML =
                 "Ihre Nachricht wurde erfolgreich versendet.";
+              this.name = "";
+              this.email = "";
+              this.message = "";
+              window.location.href = "/email-bestaetigung";
             } else {
               document.getElementById("error").innerHTML =
                 "Ihre Nachricht konnte nicht versendet werden.";

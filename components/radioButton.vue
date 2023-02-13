@@ -1,9 +1,6 @@
 <template>
-  <div
-    class="custom-radio"
-    @click="toggleSelected"
-    :style="backgroundColor ? 'background-color:' + backgroundColor : ''"
-  >
+  <div class="custom-radio" @click="toggleSelected"
+    :style="backgroundColor ? 'background-color:' + backgroundColor : ''">
     <div class="clickable-area" :class="active ? 'marked' : ''"></div>
     <div class="text-area">
       <h4>{{ title }}</h4>
@@ -94,4 +91,5 @@ export default {
     margin-left: 10px;
   }
 }
+
 </style>
