@@ -1,7 +1,7 @@
 ---
 landingTitle: Die ganze <br> Stadt im Blick
 landingSlogan: Bürgernah. Innovativ. Erfahren.
-landingImage: /static/img/roman-goetzmann-fotoshooting-waldkirch-stadt-16zu9.jpg
+landingImage: img/roman-goetzmann-fotoshooting-waldkirch-stadt-16zu9.jpg
 bannerTitle: Liebe Bürgerinnen und Bürger
 bannerText: >-2
    **in Waldkirch, Kollnau, Buchholz, Siensbach und Suggental.**
@@ -19,7 +19,7 @@ bannerText: >-2
 
 
   Ihr Roman Götzmann
-bannerImage: /static/img/cross.svg
+bannerImage: img/cross.svg
 bannerSubtitle: |-
   #### Oberbürgermeisterwahl
 
@@ -37,17 +37,17 @@ infomaterial:
     materialText: Alle  Informationen in einer Wahlbroschüre.
     materialBtnText: Download
     materialBtnLink: "#"
-    materialImage: /static/img/goetzmann-fotoshooting-069-tal-hintegrund-grafik-1zu1.jpg
+    materialImage: img/goetzmann-fotoshooting-069-tal-hintegrund-grafik-1zu1.jpg
   - materialTitle: Über mich
     materialText: Lebenslauf von Roman Götzmann.
     materialBtnText: Download
     materialBtnLink: "#"
-    materialImage: /static/img/roman-goetzmann-waldkirch-lebenslauf.jpg
+    materialImage: img/roman-goetzmann-waldkirch-lebenslauf.jpg
   - materialTitle: Pressematerial
     materialText: Bilder und Grafiken zum aktuellen Wahlkampf.
     materialBtnText: Download
     materialBtnLink: "#"
-    materialImage: /static/img/roman-goetzmann-presse-waldkirch.jpg
+    materialImage: img/roman-goetzmann-presse-waldkirch.jpg
 terminTitle: Termine
 terminText: >-
   Die Terminübersicht wird regelmäßig mit weiteren Veranstaltungsterminen und
@@ -72,17 +72,17 @@ supporterCards:
     materialText: Unterstützung vor Ort.
     materialBtnText: Mitmachen
     materialBtnLink: "#"
-    materialImage: /static/img/squared.svg
+    materialImage: img/squared.svg
   - materialTitle: Spender*in
     materialText: Kontodaten erhalten.
     materialBtnText: Spenden
     materialBtnLink: "#"
-    materialImage: /static/img/squared.svg
+    materialImage: img/squared.svg
   - materialTitle: Unterstützeranzeigen
     materialText: Informationen zur Anzeigenschaltung.
     materialBtnText: Anzeige schalten
     materialBtnLink: "#"
-    materialImage: /static/img/squared.svg
+    materialImage: img/squared.svg
 contactEmail: kontakt@roman-goetzmann.de
 contactPhone: ""
 ---

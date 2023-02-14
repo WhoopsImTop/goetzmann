@@ -5,7 +5,7 @@
         <div class="row justify-between">
           <div>
             <h3>{{ title }}</h3>
-            <p v-html="$md.render(subtitle ?? '')"></p>
+            <p v-html="subtitle ? $md.render(subtitle ?? '') : ''"></p>
           </div>
           <div class="align-end section-icons">
             <slot name="header"></slot>
@@ -21,16 +21,7 @@
 
 <script>
 export default {
-  props: {
-    title: {
-      type: String,
-      required: true
-    },
-    subtitle: {
-      type: String,
-      required: true
-    }
-  }
+  props: ["title", "subtitle"],
 }
 </script>
 

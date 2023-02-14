@@ -14,7 +14,6 @@ Am Bleichacker 27
 Kontakt
 -------
 
-Telefon: XXX  
 E-Mail: kontakt@roman-goetzmann.de
 
 Redaktionell verantwortlich

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <LandingHeader :background="$store.state.mainContent.landingImage.split('/static')[1]" textPosition="left"
+    <LandingHeader :background="$store.state.mainContent.landingImage" textPosition="left"
       :textAsBanner="true" bannerColor="linear-gradient(90deg, #3B5999, #4EB0E1)">
       <h1 v-html="$store.state.mainContent.landingTitle"></h1>
     </LandingHeader>
@@ -9,12 +9,12 @@
         <div class="grid">
           <div class="grid1">
             <h3>{{ $store.state.mainContent.bannerTitle }}</h3>
-            <p v-html="$md.render($store.state.mainContent.bannerText)"></p>
+            <p v-html="$md.render($store.state.mainContent.bannerText ?? '')"></p>
           </div>
           <div class="grid2 centered">
             <img width="200" :src="
               $store.state.mainContent.bannerImage
-                ? $store.state.mainContent.bannerImage.split('/static')[1]
+                ? $store.state.mainContent.bannerImage
                 : ''
             " alt="wählen" />
             <p v-html="$md.render($store.state.mainContent.bannerSubtitle ?? '')"></p>
@@ -27,7 +27,7 @@
       <template #content>
         <div class="row justify-between">
           <card v-for="(card, index) in $store.state.mainContent.infomaterial" :key="index" :title="card.materialTitle"
-            :subtitle="card.materialText" :image="card.materialImage.split('/static')[1]" :link="card.materialBtnLink"
+            :subtitle="card.materialText" :image="card.materialImage" :link="card.materialBtnLink"
             :buttonText="card.materialBtnText" btnColor="linear-gradient(90deg, #3B5999, #4EB0E1)" />
         </div>
       </template>
@@ -81,6 +81,13 @@ export default {
   components: { radioButton },
   data() {
     return {};
+  },
+  async fetch() {
+    try {
+      await this.$store.dispatch("getContents");
+    } catch (err) {
+      console.log(err)
+    }
   },
   name: "IndexPage",
   layout: "default",
@@ -155,14 +162,7 @@ export default {
         },
       ],
     };
-  },
-  async fetch({ params, store: { dispatch, getters } }) {
-    try {
-      await dispatch("getContents");
-    } catch (err) {
-      console.log(err)
-    }
-  },
+  }
 };
 </script>
 

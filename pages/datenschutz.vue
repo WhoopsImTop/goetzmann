@@ -18,6 +18,13 @@ export default {
             ]
         }
     },
+    async fetch() {
+        try {
+            await this.$store.dispatch("getContents");
+        } catch (err) {
+            console.log(err)
+        }
+    },
     async asyncData({ $content, params }) {
         try {
             const article = await $content('wichtig/datenschutz').fetch();
@@ -25,14 +32,7 @@ export default {
         } catch (error) {
             console.log(error);
         }
-    },
-    async fetch({ params, store: { dispatch, getters } }) {
-        try {
-            await dispatch("getContents");
-        } catch (err) {
-            console.log(err)
-        }
-    },
+    }
 }
 </script>
 

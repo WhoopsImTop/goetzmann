@@ -25,9 +25,6 @@ export default {
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ["nuxt-compress"],
-
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
@@ -36,15 +33,6 @@ export default {
     "@nuxt/content",
     "@nuxtjs/markdownit",
   ],
-
-  "nuxt-compress": {
-    gzip: {
-      threshold: 8192,
-    },
-    brotli: {
-      threshold: 8192,
-    },
-  },
 
   markdownit: {
     runtime: true, // Support `$md()`
@@ -65,10 +53,7 @@ export default {
 
   build: {},
 
-  generate: {
-    fallback: true,
-    exclude: ["/impressum", "/datenschutz", "/email-bestaetigung"],
-  },
+  generate: {},
 
   router: {
     scrollBehavior(to) {

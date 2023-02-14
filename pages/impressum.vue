@@ -6,6 +6,13 @@
 
 <script>
 export default {
+    async fetch() {
+        try {
+            await this.$store.dispatch("getContents");
+        } catch (err) {
+            console.log(err)
+        }
+    },
     head() {
         return {
             title: "Impressum | Roman Götzmann - Oberbürgermeisterwahl 2023",
@@ -25,14 +32,7 @@ export default {
         } catch (error) {
             console.log(error);
         }
-    },
-    async fetch({ params, store: { dispatch, getters } }) {
-        try {
-            await dispatch("getContents");
-        } catch (err) {
-            console.log(err)
-        }
-    },
+    }
 }
 </script>
 
