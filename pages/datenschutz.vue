@@ -6,6 +6,18 @@
 
 <script>
 export default {
+    head() {
+        return {
+            title: "Datenschutz | Roman Götzmann - Oberbürgermeisterwahl 2023",
+            meta: [
+                {
+                    hid: "description",
+                    name: "description",
+                    content: "Datenschutz | Roman Götzmann - Oberbürgermeisterwahl 2023",
+                }
+            ]
+        }
+    },
     async asyncData({ $content, params }) {
         try {
             const article = await $content('wichtig/datenschutz').fetch();

@@ -1,6 +1,6 @@
 <template>
     <div :style="'background-image: url(' + background + '); background-position: ' + backgroundPosition" class="landing-banner">
-        <img class="person" src="img/roman-goetzmann-waldkirch-wahl-2023-standard.png">
+        <img class="person" src="/img/roman-goetzmann-waldkirch-wahl-2023-standard.png">
         <div class="landing-text" :class="returnBannerClasses" :style="'background:' + bannerColor">
             <slot></slot>
         </div>

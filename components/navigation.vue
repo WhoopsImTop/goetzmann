@@ -3,7 +3,7 @@
         <div class="navigation-content-container">
             <div class="navigation-content-image" :class="logoPosition">
                 <a href="https://roman-goetzmann.de">
-                    <img :src="logoImage" :alt="logoAlt" />
+                    <img :src="'/' + logoImage" :alt="logoAlt" />
                 </a>
             </div>
             <div class="burger" :class="active ? 'active' : ''" @click="active = !active">

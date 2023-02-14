@@ -11,6 +11,14 @@
 <script>
 export default {
   name: "default",
+  async asyncData({ params, store: { dispatch, getters } }) {
+    try {
+      await dispatch("getContents");
+      console.log('TEST')
+    } catch (err) {
+      console.log(err)
+    }
+  },
   data() {
     return {
       verticalAlign: false,

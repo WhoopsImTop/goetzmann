@@ -67,7 +67,7 @@ export default {
 
   generate: {
     fallback: true,
-    exclude: ["/impressum", "/datenschutz"],
+    exclude: ["/impressum", "/datenschutz", "/email-bestaetigung"],
   },
 
   router: {
