@@ -14,7 +14,6 @@
   </template>
   
   <script>
-  import icalendar from "icalendar";
   export default {
     props: ["title", "subtitle", "date", "weekday", "backgroundColor"],
   };
