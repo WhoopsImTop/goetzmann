@@ -36,7 +36,7 @@ infomaterial:
   - materialTitle: Ziele. Erfolge. Aktuelles.
     materialText: Alle  Informationen in einer Wahlbroschüre.
     materialBtnText: Download
-    materialBtnLink: "#"
+    materialBtnLink: "img/pdf/goetzmann-roman-wahl-2023-brochure-web.pdf"
     materialImage: img/goetzmann-fotoshooting-069-tal-hintegrund-grafik-1zu1.jpg
   - materialTitle: Über mich
     materialText: Lebenslauf von Roman Götzmann.
