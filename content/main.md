@@ -37,8 +37,8 @@ infomaterialText: Die vorliegende Broschüre zeigt ausschnittsweise, was in den
   Ortschaftsräten und vielen Aktiven in Vereinen und Organisationen.
   Gleichzeitig möchte ich auch einen Ausblick geben, was mir für die Zukunft
   wichtig ist und wohin sich Waldkirch entwickeln soll. Zusätzlich finden Sie
-  hier Materialien zur Unterstützung und Pressearbeit und einen ausführlichen
-  Lebenslauf.
+  hier einen ausführlichen Lebenslauf und Materialien zur Unterstützung und
+  Pressearbeit..
 infomaterial:
   - materialTitle: Ziele. Erfolge. Aktuelles.
     materialText: Alle  Informationen in einer Wahlbroschüre.
