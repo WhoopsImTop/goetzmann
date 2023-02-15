@@ -53,7 +53,7 @@ infomaterial:
   - materialTitle: Pressematerial
     materialText: Bilder und Grafiken zum aktuellen Wahlkampf.
     materialBtnText: Download Pressematerial
-    materialBtnLink: "#"
+    materialBtnLink: "img/download/roman-goetzmann-ob-wahl-2023-presse.zip"
     materialImage: img/roman-goetzmann-presse-waldkirch.jpg
 terminTitle: Termine
 terminText: >-

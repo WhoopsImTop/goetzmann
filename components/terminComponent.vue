@@ -1,6 +1,7 @@
 <template>
     <div
       class="custom-termin"
+      @click="saveToIcal()"
       :style="backgroundColor ? 'background-color:' + backgroundColor : ''"
     >
       <div class="termin"></div>
@@ -13,6 +14,7 @@
   </template>
   
   <script>
+  import icalendar from "icalendar";
   export default {
     props: ["title", "subtitle", "date", "weekday", "backgroundColor"],
   };
