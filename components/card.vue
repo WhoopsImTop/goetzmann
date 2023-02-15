@@ -14,7 +14,7 @@
       :style="'background: ' + btnColor"
       >{{ buttonText }}</a
     >
-    <a v-else class="card-button" :style="'background: ' + btnColor" :href="link" download>{{
+    <a v-else class="card-button" :style="'background: ' + btnColor" :href="link" target="_blank">{{
       buttonText
     }}</a>
   </div>

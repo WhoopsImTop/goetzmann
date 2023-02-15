@@ -42,17 +42,17 @@ infomaterialText: Die vorliegende Broschüre zeigt ausschnittsweise, was in den
 infomaterial:
   - materialTitle: Ziele. Erfolge. Aktuelles.
     materialText: Alle  Informationen in einer Wahlbroschüre.
-    materialBtnText: Download
+    materialBtnText: Download Broschüre
     materialBtnLink: img/pdf/goetzmann-roman-wahl-2023-brochure-web.pdf
     materialImage: img/goetzmann-fotoshooting-069-tal-hintegrund-grafik-1zu1.jpg
   - materialTitle: Über mich
     materialText: Lebenslauf von Roman Götzmann.
-    materialBtnText: Download
+    materialBtnText: Download Lebenslauf
     materialBtnLink: img/pdf/goetzmann-roman-wahl-2023-lebenslauf.pdf
     materialImage: img/roman-goetzmann-waldkirch-lebenslauf.jpg
   - materialTitle: Pressematerial
     materialText: Bilder und Grafiken zum aktuellen Wahlkampf.
-    materialBtnText: Download
+    materialBtnText: Download Pressematerial
     materialBtnLink: "#"
     materialImage: img/roman-goetzmann-presse-waldkirch.jpg
 terminTitle: Termine
