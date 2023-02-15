@@ -36,12 +36,12 @@ infomaterial:
   - materialTitle: Ziele. Erfolge. Aktuelles.
     materialText: Alle  Informationen in einer Wahlbroschüre.
     materialBtnText: Download
-    materialBtnLink: "img/pdf/goetzmann-roman-wahl-2023-brochure-web.pdf"
+    materialBtnLink: img/pdf/goetzmann-roman-wahl-2023-brochure-web.pdf
     materialImage: img/goetzmann-fotoshooting-069-tal-hintegrund-grafik-1zu1.jpg
   - materialTitle: Über mich
     materialText: Lebenslauf von Roman Götzmann.
     materialBtnText: Download
-    materialBtnLink: "#"
+    materialBtnLink: img/pdf/goetzmann-roman-wahl-2023-lebenslauf.pdf
     materialImage: img/roman-goetzmann-waldkirch-lebenslauf.jpg
   - materialTitle: Pressematerial
     materialText: Bilder und Grafiken zum aktuellen Wahlkampf.
@@ -55,8 +55,8 @@ terminText: >-
 
   Gerne können Sie mich natürlich auch außerhalb von Wahlkampfterminen auf die Dinge ansprechen, die Ihnen am Herzen liegen.
 sozialeMedienTitle: SOZIALE MEDIEN
-sozialeMedienText: Folgen Sie mir im Wahlkampf. Schauen
-  Sie hinter die Kulissen und nutzen die direkte Kommunikation mit Facebook und Instagram.
+sozialeMedienText: Folgen Sie mir im Wahlkampf. Schauen Sie hinter die Kulissen
+  und nutzen die direkte Kommunikation mit Facebook und Instagram.
 supporterTitle: Wählerinitiative
 supporterText: >-
   Ein Wahlkampf ist zeitintensiv und braucht viele helfende Hände. \
