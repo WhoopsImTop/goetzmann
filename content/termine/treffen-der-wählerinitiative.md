@@ -1,6 +1,6 @@
 ---
 title: Treffen der Wählerinitiative
-description: B﻿uchholz
-start: February 28, 2023 12:00 AM
+description: Schützenhaus B﻿uchholz
+start: February 28, 2023 7:00 PM
 wochentag: Dienstag
 ---
