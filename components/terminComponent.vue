@@ -8,7 +8,7 @@
       <div class="text-area">
         <span>{{ weekday }} | {{ new Date(date).toLocaleString('de-DE', { year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute:'2-digit' }) }} Uhr</span>
         <h4>{{ title }}</h4>
-        <p>{{ subtitle }}</p>
+        <p v-html="$md.render(subtitle)"></p>
       </div>
     </div>
   </template>

@@ -49,7 +49,7 @@ collections:
       - { label: "Termin Titel", name: "terminTitle", widget: "string" }
       - { label: "Termin Text", name: "terminText", widget: "markdown" }
       - { label: "Soziale Medien Titel", name: "sozialeMedienTitle", widget: "string" }
-      - { label: "Soziale Medien Text", name: "sozialeMedienText", widget: "string" }
+      - { label: "Soziale Medien Text", name: "sozialeMedienText", widget: "string", hint: "Bitte keine Bilder hinzufügen" }
       - { label: "Unterstützer Titel", name: "supporterTitle", widget: "string" }
       - { label: "Unterstützer Text", name: "supporterText", widget: "markdown" }
       - label: "Unterstützer Karten"
