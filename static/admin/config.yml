@@ -99,6 +99,6 @@ collections:
       preview: false
     fields:
       - { label: "Titel", name: "title", widget: "string" }
-      - { label: "Beschreibung", name: "description", widget: "markdown" }
-      - { label: "Start time", name: "start", widget: "datetime", default: "", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL", picker_utc: false }
+      - { label: "Beschreibung", name: "description", widget: "markdown", hint: "Bitte keine Bilder einfügen!" }
+      - { label: "Datum", name: "start", widget: "datetime", default: "", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL", picker_utc: false }
       - { label: "Wochentag", name: "wochentag", widget: "string"}
