@@ -1,6 +1,6 @@
 ---
 title: Treffen der Wählerinitiative
-description: Schützenhaus B﻿uchholz
-start: February 28, 2023 7:00 PM
+description: Loft 19, Tanzschule Waldkirch
+start: March 7, 2023 7:00 PM
 wochentag: Dienstag
 ---
