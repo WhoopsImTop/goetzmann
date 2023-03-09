@@ -47,13 +47,33 @@
             allowfullscreen
           ></iframe>
         </div>
-        <a @click="shareVideo" class="video_share"
-          >Video teilen
-          <img src="img/share.svg" width="25px" style="margin-left: 10px"
-        /></a>
-        <div>
+        <div class="row-wrap">
+          <a
+            @click="shareVideo"
+            class="card-button"
+            style="background: linear-gradient(90deg, #3b5999, #4eb0e1)"
+            >Video teilen
+          </a>
+          <a
+            class="card-button"
+            href="Roman Götzmann - Oberbürgermeisterwahl 2023 - Waldkirch.mp4"
+            download
+            style="
+              background: linear-gradient(90deg, #3b5999, #4eb0e1);
+              margin-left: 15px;
+            "
+            >Video herunterladen
+          </a>
+        </div>
+        <div class="error">
           <a class="share_error"></a>
-          <a class="copy-btn" style="display: none" data-link="https://www.youtube.com/watch?v=20KQAQJ73pY" @click="copyToClipboard">Link kopieren</a>
+          <a
+            class="copy-btn"
+            style="display: none"
+            data-link="https://www.youtube.com/watch?v=20KQAQJ73pY"
+            @click="copyToClipboard"
+            >Link kopieren</a
+          >
         </div>
       </template>
     </Section>
@@ -259,18 +279,19 @@ export default {
       try {
         await navigator.share(data);
       } catch (e) {
-        document.querySelector('.copy-btn').style.display = 'inline-block';
-        document.querySelector('.share_error').innerHTML = 'Ihr Browser unterstützt das Teilen leider nicht.'
+        document.querySelector(".copy-btn").style.display = "inline-block";
+        document.querySelector(".share_error").innerHTML =
+          "Ihr Browser unterstützt das Teilen leider nicht.";
       }
     },
     copyToClipboard() {
-      let link = document.querySelector('.copy-btn').getAttribute('data-link');
+      let link = document.querySelector(".copy-btn").getAttribute("data-link");
       navigator.clipboard.writeText(link);
-      document.querySelector('.copy-btn').innerHTML = 'kopiert';
+      document.querySelector(".copy-btn").innerHTML = "kopiert";
       setTimeout(() => {
-        document.querySelector('.copy-btn').innerHTML = 'Link kopieren';
+        document.querySelector(".copy-btn").innerHTML = "Link kopieren";
       }, 2000);
-    }
+    },
   },
 };
 </script>
@@ -290,16 +311,6 @@ export default {
   border: 0;
 }
 
-.video_share {
-  color: var(--primary-color);
-  margin: 15px 0;
-  font-weight: 500;
-  cursor: pointer;
-  border-bottom: 2px solid var(--primary-color);
-  display: inline-flex;
-  align-items: center;
-}
-
 .copy-btn {
   font-size: 14px;
   padding: 5px 10px;
@@ -308,5 +319,16 @@ export default {
   color: var(--primary-color);
   cursor: pointer;
   margin-left: 10px;
+}
+
+.error {
+  margin-top: 20px;
+}
+
+.row-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 15px;
 }
 </style>
