@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="de" {{ HTML_ATTRS }}>
 
-<head {{ HEAD_ATTRS }}>
-    <link rel="preconnect" href="//app.eu.usercentrics.eu">
-    <link rel="preconnect" href="//api.eu.usercentrics.eu">
-    <link rel="preload" href="//app.eu.usercentrics.eu/browser-ui/latest/loader.js" as="script">
-    {{ HEAD }}
-    <script id="usercentrics-cmp" async data-eu-mode="true" data-settings-id="0TNy9rUUJXLiGF"
-        src="https://app.eu.usercentrics.eu/browser-ui/latest/loader.js"></script>
-    <script>
+    <head {{ HEAD_ATTRS }}>
+        <link rel="preconnect" href="//app.eu.usercentrics.eu">
+        <link rel="preconnect" href="//api.eu.usercentrics.eu">
+        <link rel="preload"
+            href="//app.eu.usercentrics.eu/browser-ui/latest/loader.js"
+            as="script">
+        {{ HEAD }}
+        <script type="application/javascript"
+            src="https://sdp.eu.usercentrics.eu/latest/uc-block.bundle.js"></script>
+        <script id="usercentrics-cmp" async data-eu-mode="true"
+            data-settings-id="0TNy9rUUJXLiGF"
+            src="https://app.eu.usercentrics.eu/browser-ui/latest/loader.js"></script>
+        <script>
         var gaProperty = 'G-BEHXVK2YY8';
         var disableStr = 'ga-disable-' + gaProperty;
         if (document.cookie.indexOf(disableStr + '=true') > -1) {
@@ -20,17 +25,18 @@
             alert('Das Tracking durch Google Analytics wurde in Ihrem Browser für diese Website deaktiviert.');
         }
     </script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BEHXVK2YY8"></script>
-    <script>
+        <script async
+            src="https://www.googletagmanager.com/gtag/js?id=G-BEHXVK2YY8"></script>
+        <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'G-BEHXVK2YY8');
     </script>
-</head>
+    </head>
 
-<body {{ BODY_ATTRS }}>
-    {{ APP }}
-</body>
+    <body {{ BODY_ATTRS }}>
+        {{ APP }}
+    </body>
 
 </html>

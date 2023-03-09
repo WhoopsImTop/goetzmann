@@ -14,7 +14,7 @@
 
         <radio-button style="margin-top: 30px;" title="Interesse an einem persönlichen Gespräch?"
           subtitle="Ich freue mich über Ihre Nachricht!" :setAction="'setContactForm'"
-          :removeAction="'unsetContactForm'" :backgroundColor="'#F3F9FB'"/>
+          :removeAction="'unsetContactForm'"/>
         <form class="form" v-show="$store.state.showContactForm">
           <div class="formgroup">
             <label for="name">Vor- und Nachname</label>

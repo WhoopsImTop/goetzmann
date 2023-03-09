@@ -1,7 +1,7 @@
 <template>
   <div class="section">
     <div class="content-container">
-      <div class="section-header">
+      <div v-if="title || subtitle" class="section-header">
         <div class="row justify-between">
           <div>
             <h3>{{ title }}</h3>
@@ -22,9 +22,8 @@
 <script>
 export default {
   props: ["title", "subtitle"],
-}
+};
 </script>
 
 <style>
-
 </style>
